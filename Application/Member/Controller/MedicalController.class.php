@@ -1,7 +1,6 @@
 <?php
 
 namespace Member\Controller;
-
 use Think\Controller;
 
 
