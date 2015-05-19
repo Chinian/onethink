@@ -1,0 +1,34 @@
+<extend name="base_template" />
+
+<block name="header"><script type="text/javascript">$(document).ready(app_car_obj.sales_list_init);</script></block>
+
+<block name="main">
+<div class="control_btn"><a href="{:U('Car/sales', array('id' => '0'))}" class="btn_ok btn_ok_w_120">添加销售</a></div>
+<table border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+	<thead>
+		<tr>
+			<td width="10%">序号</td>
+			<td width="40%">销售名称</td>
+			<td width="20%">分类</td>
+			<td width="20%">电话</td>
+			<td width="10%" class="last">操作</td>
+		</tr>
+	</thead>
+	<tbody> 
+		<volist name="sales" id="v">
+		<tr>
+			<td nowrap="nowrap">{$v.id}</td>
+			<td>{$v.name}</td>
+			<td>{$v.sale_cate}</td>
+			<td>{$v.tel}</td>
+			<td nowrap="nowrap" class="last">
+				<a href="{:U('Car/sales', array('id' => $v['id']))}"><img src="__PUBLIC__/Member/images/mod.gif" align="absmiddle" alt="修改" /> </a>
+				<a class="sales-del" data-url="{:U('Car/delSales')}" data-id="{$v.id}"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" alt="删除" /></a>
+			</td>
+		</tr>
+		</volist>
+	</tbody>
+</table>
+<div class="blank20"></div>
+<div id="turn_page">{$page}</div>
+</block>

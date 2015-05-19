@@ -1,0 +1,161 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<meta content="telephone=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>城市微联盟--婚庆摄影</title>
+		<link rel="stylesheet" type="text/css" href="/test/onethink/Public/Wedding/css/info.css"/>
+		<style type="text/css">
+			.onError {color:red;}
+		</style>
+	</head>
+	<body style="background:#fff">
+		<header class="header">
+		<div id="back">
+			<img src="/test/onethink/Public/Wedding/images/back.png" onClick="history.back(-1)"/>
+		</div>
+		<div class="header_title">发布信息</div>
+		<div id="my">
+			<a href="<?php echo U('vip/index');?>"><img src="/test/onethink/Public/Wedding/images/my_icon.png" /></a>
+		</div>
+		<div class="clear" ></div>
+		</header>
+		<div class="container2">
+			<h4>只需30秒，快速填写商家服务信息</h4>
+			<form id="secondhand_form" class="info_form">
+				<ul>
+					<li>
+					<span class="label">商店名称</span>
+					<input type="text" name="title" class="iblank" id="shipname" required="required"/>
+					</li>
+					<li class="plugin_box">
+					<span id="alabel" class="label">类别</span>
+					<span>
+						<select name=category class="sblank3" required="required" id="type1" onchange="imitatetype(this.id)">
+							<option disabled="disabled">---请选择---</option>
+
+							<?php if(is_array($data["list"])): foreach($data["list"] as $key=>$v): ?><option disabled="disabled">├<?php echo ($v["title"]); ?></option>
+							<?php if(is_array($v["child"])): foreach($v["child"] as $key=>$vv): ?><option value="<?php echo ($vv["id"]); ?>" text="<?php echo ($vv["title"]); ?>">｜└<?php echo ($vv["title"]); ?></option><?php endforeach; endif; endforeach; endif; ?>
+						</select>
+						<table border="0" cellpadding="0" cellpadding="0" class="imitate_box imitate_box2">
+							<tr>
+								<td class="imitate">-请选择-&nbsp;</td>
+								<td class="si"></td>
+							</tr>
+						</table>
+					</span>
+					<div class="clear"></div>
+					</li>
+					<li class="is">
+					<span class="label">服务区域</span>
+					<select class="sblank" id="region_select" name="region" onchange="imitate(this.id)" required="required">
+						<?php if(is_array($data["region"])): foreach($data["region"] as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>"><?php echo ($v["region"]); ?></option><?php endforeach; endif; ?>
+					</select>
+					<span class="imitate">&nbsp;</span>
+					</li>
+					<li>
+					<input type="text" class="iblank" id="address" name="address" required="required" style="width:100%" placeholder="可输入详细街道地址"/>
+					</li>
+					<li>
+					<span class="label">联系人</span>
+					<input type="text" class="iblank" name="contact" id="linkman" required="required"/>
+					</li>
+					<li>
+					<span class="label">联系电话</span>
+					<input type="text" class="iblank" id="linktel" name="phone" pattern="[0-9]*" required="required"/>
+					</li>
+					<li>
+					<span class="label">宣传语</span>
+					<input type="text" class="iblank" id="advert" name="advert" required="required"/>
+					</li>
+					<li>
+					<span class="label rlabel">详细描述</span>
+					<textarea class="tblank" id="product_intro"  name="content" required="required"></textarea>
+					</li>
+					<li class="upload_tip">
+					共可上传<span class="can">6</span>张图片（非必填）
+					</li>
+					<li class="upload_content">
+					<div class="upload_box no_img" id="upload_box1">
+						<input name="ImgUpload1" id="ImgUpload1" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv1" />
+						</div>
+						<input type="hidden" id="ImgPath1">
+					</div>
+					<div class="upload_box no_img" id="upload_box2">
+						<input name="ImgUpload2" id="ImgUpload2" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv2"  />
+						</div>
+						<input type="hidden" id="ImgPath2">
+					</div>	
+					<div class="upload_box no_img" id="upload_box3">
+						<input name="ImgUpload3" id="ImgUpload3" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv3" />
+						</div>
+						<input type="hidden" id="ImgPath3">
+					</div>	
+					<div class="upload_box no_img" id="upload_box4">
+						<input name="ImgUpload4" id="ImgUpload4" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv4" />
+						</div>
+						<input type="hidden"  id="ImgPath4">
+					</div>	
+					<div class="upload_box no_img" id="upload_box5">
+						<input name="ImgUpload5" id="ImgUpload5" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv5" />
+						</div>
+						<input type="hidden"  id="ImgPath5">
+					</div>	
+					<div class="upload_box no_img" id="upload_box6">
+						<input name="ImgUpload6" id="ImgUpload6" type="file" accept="image/*" style="opacity: 0;"/>
+						<div class="img" >
+							<img  id="ImgDetailDiv6" />
+						</div>
+						<input type="hidden"  id="ImgPath6">
+					</div>	
+					<div class="clear"></div>	
+					</li>
+					<li class="is">
+					<span class="label" id="tlabel">本条信息的有效期</span>
+					<select class="sblank" id="valid" name="valid"  onchange="imitate(this.id)" required="required">
+						<option value='604800'>一周</option>
+						<option value='2678400'>一个月</option>
+						<option value='31622400'>一年</option>
+					</select>
+					<span class="imitate" id="ivalid"><span class="fill_tip">请选择该信息的保留期限</span></span>
+					</li>
+				</ul>	
+				<div>
+					<input type="button" id="publish_rent" class="publish_btn" value="发布信息" />
+				</div>
+
+			</form>
+		</div>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/global.js"></script>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/mobileBUGFix.mini.js"></script>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/exif.js"></script>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/binaryajax.js"></script>
+		<script type="text/javascript" src="/test/onethink/Public/static/js/LocalResizeIMG.js"></script>
+		<script type='text/javascript' src='/test/onethink/Public/Wedding/js/wedding.js'></script>
+		<script>
+			var domain={
+				www:'<?php echo C('WEB_ABSOLUTE_URL');?>',
+				static:'<?php echo C('WEB_ABSOLUTE_URL');?>',
+				img:'<?php echo C('WEB_ABSOLUTE_URL');?>',
+				file:'<?php echo C('WEB_ABSOLUTE_URL');?>',
+				kf:'<?php echo C('WEB_ABSOLUTE_URL');?>'
+			};	
+			$(document).ready(wedding_obj.wedding_init);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+/*
+Powered by ly200.com		http://www.ly200.com
+广州联雅网络科技有限公司		020-83226791
+*/
+
+#card_style_list .list{height:450px; overflow:auto;}
+#card_style_list table{background:#fff; width:460px;}
+#card_style_list table td{text-align:center; padding:15px;}
+#card_style_list table td:hover{background:#ddd;}
+#card_style_list table td a{width:200px; height:120px; overflow:hidden; display:block; border:3px solid #fff; border-radius:10px;}
+#card_style_list table td a.cur{border:3px solid #F60;}
+#card_style_list table td a img{width:100%; height:100%;}
+
+#category .category .m_lefter{float:left; width:385px; padding:10px; border:1px solid #ddd; background:#f7f7f7; min-height:400px; _height:400px; overflow:hidden;}
+#category .category .m_lefter dd{border:1px solid #f7f7f7; border-bottom:1px solid #ddd; background:#f7f7f7;}
+#category .category .m_lefter dd.placeHolder{border:dashed 1px #1584D5; background:#fff;}
+#category .category .m_lefter dd div.category{height:30px; line-height:30px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; cursor:move;}
+#category .category .m_lefter dd div.no_ext{height:50px; line-height:50px;}
+#category .category .m_lefter dd ul{padding-left:40px;}
+#category .category .m_lefter ul li{float:left; width:162px; margin-right:5px; height:24px; line-height:24px; overflow:hidden; font-size:12px; border:1px solid #f7f7f7;}
+#category .category .m_lefter ul li:hover{background:#e6e6e6;}
+#category .category .m_lefter ul li.placeHolder{border:dashed 1px #1584D5; background:#fff;}
+#category .category .m_lefter ul li .title{height:24px; line-height:24px; float:left; overflow:hidden; white-space:nowrap; width:100px; text-overflow:ellipsis; cursor:move; font-size:12px;}
+#category .category .m_lefter ul li .opt{float:right; padding-top:3px; padding-right:10px; display:none; cursor:move;}
+#category .category .m_righter{float:left; width:340px; margin-left:20px;}
+#category .category .m_righter form{padding:10px; border:1px solid #ddd; background:#f7f7f7; zoom:1;}
+#category .category .m_righter .mod_form{border:1px dotted red;}
+#category .category .m_righter h1{font-weight:bold; padding-bottom:5px;}
+#category .category .m_righter .opt_item{padding:5px 0;}
+#category .category .m_righter .opt_item label{float:left; width:70px; height:28px; line-height:28px;}
+#category .category .m_righter .opt_item .input{float:left; width:240px; display:block; line-height:28px;}
+#category .category .m_righter .opt_item .input .form_input{border:1px solid #ddd; border-radius:5px; height:28px; line-height:28px; text-indent:2px;}
+#category .category .m_righter .opt_item .input select{height:32px; border:1px solid #ddd; border-radius:5px; padding:5px; width:220px; overflow:hidden;}
+#category .category .m_righter .opt_item .tips{color:#888; font-size:12px;}
+#category .category .m_righter .opt_item #pro-list-type{height:135px; margin-top:7px;}
+#category .category .m_righter .opt_item #pro-list-type li{float:left; width:100px; height:135px; overflow:hidden; padding-right:10px;}
+#category .category .m_righter .opt_item #pro-list-type li .item{position:relative; width:100px; height:135px;}
+#category .category .m_righter .opt_item #pro-list-type li .item .img{position:absolute; width:100px; height:135px; z-index:1;}
+#category .category .m_righter .opt_item #pro-list-type li .item .filter{position:absolute; width:100px; height:135px; z-index:2;}
+#category .category .m_righter .opt_item #pro-list-type li .item .bg{position:absolute; width:100px; height:135px; z-index:3;}
+#category .category .m_righter .opt_item #pro-list-type li .item_on .filter{background:#000; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity:0.7; opacity:0.7;}
+#category .category .m_righter .opt_item #pro-list-type li .item_on .bg{background:url(../images/shop/selected-icon.png) center center no-repeat;}
+#CategoryImgDetail img{width:139px;}
+
+#products .r_con_search_form{display:none;}
+
+.imgs_cont .items{ float:left; width:150px; margin:5px}
+.imgs_cont .items img{ width:100%; height:auto}

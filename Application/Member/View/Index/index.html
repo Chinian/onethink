@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>信息管理</title>
+<script type="text/javascript" src="__PUBLIC__/Static/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>id</th>
+			<th>分类</th>
+			<th>主题</th>
+			<th>发布时间</th>
+			<th>过期时间</th>
+			<th>地区</th>
+			<th>图片数量</th>
+			<th>状态</th>
+			<th>审核</th>
+		</tr>
+		<volist name="data.list" id="info">
+		<tr>
+			<td>{$info.id}</td>
+			<td>{$info.category}</td>
+			<td>{$info.title}</td>
+			<td>{$info.inputtime|date="Y-m-d H:i",###}</td>
+			<td>{$info.expirytime|date="Y-m-d H:i",###}</td>
+			<td>{$info.regionid}</td>
+			<td>{$info.pic}</td>
+			<if condition="$info.status eq 1">
+				<td><span style="color:green;">已审核</span></td>
+				<td><input class="check_button" id="{$info.id}" type="button" value="审核" disabled="disabled" /></td>
+			<else />
+				<td><span style="color:red;">未审核</span></td>
+				<td><input class="check_button" id="{$info.id}" type="button" value="审核" /></td>
+			</if>
+			
+			
+		</tr>
+		</volist>
+	</table>
+</body>
+<script type="text/javascript" src="__PUBLIC__/Member/js/member.js"></script>
+</html>

@@ -1,0 +1,20 @@
+<extend name="base_template" />
+
+<block name="main">
+<nav>
+<volist name="news" id="v">
+<a style="text-decoration:none;" href="{:U('Car/news', array('nid' => $v['id']))}">
+	<div class="news_list">
+		<div class="news_img"><img src="{$v.imgpath}" height="100%" /></div>
+		<div class="news_info">
+			<div class="news_title">{$v.title}</div>
+			<div class="news_dec">{$v.brief_des}</div>
+		</div>
+		<div class="news_icon"><span></span></div>
+	</div>
+</a>
+</volist>
+</nav>
+
+<div style="height:35px;"></div>
+</block>

@@ -1,0 +1,18 @@
+<extend name="base_template" />
+
+<block name="main">
+<div class="detail_frame">
+	<div class="df1">
+		<div class="df1_name">{$product.name}</div>
+		<div class="df2_name"><span>{$product.brief_des}</span><br></div>
+	</div>
+	<div class="desc">
+{$product.des}
+	</div>
+	<div class="frame2">
+		<div class="b1"><input type="button" class="btn2" value="联系销售" onClick="window.location=window.PG.url_pre_module+'contact/'" /></div>
+		<div class="b2"><input type="button" class="btn2" value="预约试驾" onClick="window.location=window.PG.url_pre_module+'feedback/sj/'" /></div>
+		<div class="clear"></div>
+	</div>
+</div>
+</block>

@@ -1,0 +1,42 @@
+/* ::::: http://119.29.100.195/css/global.css?t=20150325 ::::: */
+
+body, html, h1, h2, h3, h4, h5, h6, big, small, sub, sup, input, select, textarea { font-size: 14px; color: rgb(51, 51, 51); font-family: 微软雅黑,Arial,宋体; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote { padding: 0px; margin: 0px; }
+li { list-style-type: none; }
+img { border: medium none; }
+input[type="text"], input[type="number"], input[type="password"], input[type="reset"], input[type="submit"], input[type="button"], input[type="tel"], button, textarea { border-radius: 0px; border: 1px solid rgb(221, 221, 221); }
+.form_input { color: rgb(51, 51, 51); height: 20px; line-height: 20px; }
+.blank20 { margin: 0px auto; clear: both; height: 20px; font-size: 1px; overflow: hidden; }
+a { color: rgb(51, 51, 51); text-decoration: none; }
+a:hover { color: rgb(255, 102, 0); text-decoration: underline; }
+#turn_page { text-align: center; height: 30px; line-height: 30px; clear: both; }
+#turn_page * { text-decoration: none; }
+#turn_page .page_item_current { background: none repeat scroll 0% 0% rgb(240, 240, 240); border: 1px solid rgb(204, 204, 204); padding: 4px 8px; margin: 0px 2px; color: red; }
+#turn_page .page_noclick { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); color: rgb(170, 170, 170); padding: 4px 8px; margin: 0px 2px; }
+/* ::::: http://119.29.100.195/css/frame.css?t=20150325 ::::: */
+
+body, html { background: url('main-bg.jpg') no-repeat fixed left top transparent; }
+#iframe_page { width: 100%; overflow: hidden; }
+#iframe_page .iframe_content { padding: 15px; }
+#iframe_page .control_btn { margin-bottom: 15px; height: 30px; clear: both; }
+#iframe_page .btn_ok { display: block; height: 30px; line-height: 30px; background: url('btn-ok-bg.jpg') repeat scroll 0% 0% transparent; border: medium none; color: rgb(255, 255, 255); width: 145px; border-radius: 5px; text-align: center; text-decoration: none; float: left; margin-right: 10px; }
+#iframe_page .btn_ok_w_120 { width: 120px; background: url('btn-ok-w120-bg.jpg') repeat scroll 0% 0% transparent; }
+.r_nav { background: url('nav-bg.png') no-repeat scroll right center transparent; height: 40px; z-index: 10; }
+.r_nav ul { height: 40px; background: url('nav-ul-bg.jpg') no-repeat scroll left top transparent; padding-left: 12px; }
+.r_nav ul li { float: left; margin-right: 10px; margin-top: 11px; width: 120px; height: 28px; line-height: 28px; white-space: nowrap; position: relative; background: url('nav-li-bg.png') repeat scroll 0% 0% transparent; text-align: center; }
+.r_nav ul li.cur a { color: rgb(44, 120, 169); font-weight: bold; }
+.r_con_wrap { background: none repeat scroll 0% 0% rgb(255, 255, 255); padding: 12px 12px 20px; min-height: 200px; }
+.r_con_table { border-collapse: collapse; width: 100%; }
+.r_con_table td { padding: 10px 5px; border-bottom: 1px solid rgb(221, 221, 221); text-align: center; empty-cells: show; border-right: 1px solid rgb(221, 221, 221); }
+.r_con_table td.last { border-right: medium none; }
+.r_con_table td a { color: rgb(77, 136, 211); }
+.r_con_table thead { background: none repeat scroll 0% 0% rgb(241, 241, 241); font-weight: bold; }
+.r_con_table tbody tr:hover { background: none repeat scroll 0% 0% rgb(228, 241, 252); }
+.r_con_table tbody td, .r_con_table tbody td * { font-size: 12px; }
+.r_con_search_form { padding: 10px; background: none repeat scroll 0% 0% rgb(247, 247, 247); border: 1px solid rgb(221, 221, 221); margin-bottom: 8px; font-size: 12px; position: relative; }
+.r_con_search_form * { font-size: 12px; }
+.r_con_search_form .search_btn { background: none repeat scroll 0% 0% rgb(21, 132, 213); color: white; border: medium none; height: 22px; line-height: 22px; width: 80px; }
+/* ::::: http://119.29.100.195/member/css/app_hotels.css?t=20150325 ::::: */
+
+#products .r_con_search_form { display: none; }
+#products .r_con_table del { color: rgb(136, 136, 136); }

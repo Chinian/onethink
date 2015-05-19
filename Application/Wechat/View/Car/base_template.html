@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<block name="header">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link href='__PUBLIC__/static/css/global.css' rel='stylesheet' type='text/css'  />
+		<link href='__PUBLIC__/static/api/css/global.css' rel='stylesheet' type='text/css'  />
+		<script type='text/javascript' src='__PUBLIC__/static/js/jquery-1.7.2.min.js' ></script>
+		<script type='text/javascript' src='__PUBLIC__/static/api/js/jweixin-1.0.0.js' ></script>
+		<script type='text/javascript' src='__PUBLIC__/static/api/js/global.js' ></script>
+		<script type="text/javascript">
+			window.PG={
+page:["33d3974ab3","app_car","index"],
+     subscribe:0,
+     openid:'',
+     fansid:0,
+     userid:0,
+     cover:'',
+     url_pre:'__ROOT__/',
+     url_pre_module:'__CONTROLLER__/',
+     member_id:'16',
+     js_sdk:{"appId":"wx295ea8b654156132","nonceStr":"ac53d04916c734d4","timestamp":1430708704 ,"signature":"005fac4af69157014c49b9a77ccb0277cc84fccf"}}
+     $(document).ready(function(){global_obj.page_init()});
+</script>
+</head>
+
+<body>
+	<link href='__PUBLIC__/Car/css/app_car.css' rel='stylesheet' type='text/css'  />
+	<script type='text/javascript' src='__PUBLIC__/static/plugin/swipe/swipe.js' ></script>
+	<script type='text/javascript' src='__PUBLIC__/Car/js/app_car.js' ></script>
+</block>
+
+	<div id="warpper" <block name="warpperclass"></block> >
+		<block name="logo">
+		<header>
+		<div class="web_name">{$config.index.name}</div>
+		<div class="logo"><a href="{:U('Car/index')}"><img src="{$config.index.logo_path}" /></a></div>
+		</header>
+		</block>
+		<block name="menu">
+		<div class="line"></div>
+		<div id="headerbox" class="cate_frmae">
+			<div class="nav-div">
+				<volist name="carcate" id="v">
+				<a href="{:U('Car/product', array('cid' => $v['id']))}">{$v.name}</a>
+				</volist>
+			</div>
+		</div>
+		<div class="line2"></div>
+		</block>
+
+		<block name="custom_header"><script type="text/javascript">app_car_obj.app_car_header_swipe_init();</script></block>
+
+		<block name="main">主内容</block>
+
+
+	</div>
+<block name="about">
+	<div id="footer" class="plug-menu bgcolor"><span class="close"></span></div>
+	<ul class="footer_list">
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon1.png" /></span>
+		<span class="i_name"><a href="{:U('Car/contact')}/">联系我们</a></span>
+		</li>
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon2.png" /></span>
+		<span class="i_name"><a href="{:U('Car/about')}/">关于我们</a></span>
+		</li>
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon3.png" /></span>
+		<span class="i_name"><a href="{:U('Car/index')}">微站首页</a></span>
+		</li>    
+	</ul>
+	<div id="mask"></div>
+</block>
+<block name="footer">
+	<script type="text/javascript">app_car_obj.app_car_footer_init();</script>
+	<script type="text/javascript">
+		window.PG.share={
+			title:'{$config.index.reply_title}',
+			desc:'{$config.index.reply_title}',
+			img_url:'{$config.index.logo_path}'
+		}
+	</script>
+</block>
+</body>
+</html>
+</block>

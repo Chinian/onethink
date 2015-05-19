@@ -1,0 +1,38 @@
+<extend name="base_template" />
+
+<block name="header"><script type="text/javascript">$(document).ready(app_car_obj.news_list_init);</script></block>
+
+<block name="main">
+<div id="news" class="r_con_wrap">
+	<div class="control_btn">
+		<a href="{:U('Car/news',array('id' => '0'))}" class="btn_ok btn_ok_w_120">添加文章</a>
+	</div>
+	<table border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+		<thead>
+			<tr>
+				<td width="10%">序号</td>
+				<td width="40%">文章标题</td>
+				<td width="20%">分类</td>
+				<td width="20%">时间</td>
+				<td width="10%" class="last">操作</td>
+			</tr>
+		</thead>
+		<tbody> 
+			<volist name="news" id="v">
+			<tr>
+				<td nowrap="nowrap">{$v.id}</td>
+				<td>{$v.title}</td>
+				<td>{$v.cate}</td>
+				<td>{$v.inputtime|date="Y-m-d H:i:s",###}</td>
+				<td nowrap="nowrap" class="last">
+					<a href="{:U('Car/news', array('id' => $v['id']))}"><img src="__PUBLIC__/Member/images/mod.gif" align="absmiddle" alt="修改" /></a>
+					<a class="news-del" data-url="{:U('Car/delNews')}" data-id="{$v.id}"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" alt="删除" /></a>
+				</td>
+			</tr>
+			</volist>
+		</tbody>
+	</table>
+	<div class="blank20"></div>
+	<div id="turn_page">{$page}</div>
+</div>
+</block>

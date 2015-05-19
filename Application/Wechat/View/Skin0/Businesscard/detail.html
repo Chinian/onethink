@@ -1,0 +1,62 @@
+<include file="Default/Businesscard/header" />
+		<div id="businesscard_skin_0">
+			<audio id="mc" src="{$data.bgm}" autoplay></audio>
+			<div id="music"><img src="__PUBLIC__/Businesscard/images/on.png" /></div>
+			<div class="logo"><img src="{$data.imgpath}" /></div>
+			<div class="toper">
+				<h1>{$data.name}</h1>
+				<label>{$data.posts}</label>
+				<div class="clear"></div>
+			</div>
+			<ul>
+				<li class="t"></li>
+				<li class="c">
+				<dl>
+					<dt>{$data.company}</dt>
+					<dd class="bn"><label><img src="__PUBLIC__/Businesscard/images/phone.jpg" /></label><a href="tel:{$data.mobile}">{$data.mobile}</a></dd>
+					<if condition ="$data['tel']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/tel.jpg" /></label><a href="tel:{$data.tel}">{$data.tel}</a></dd>
+					</if>
+					<if condition ="$data['fax']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/fax.jpg" /></label><a href="tel:{$data.fax}">{$data.fax}</a></dd>
+					</if>
+					<if condition ="$data['qq']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/qq.jpg" /></label>{$data.qq}</dd>
+					</if>
+					<if condition ="$data['email']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/mail.jpg" /></label>{$data.email}</dd>
+					</if>
+					<if condition ="$data['website']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/e.jpg" /></label>{$data.website}</dd>
+					</if>
+					<if condition ="$data['add']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/locate.jpg" /></label>{$data.add}</dd>
+					</if>
+					<if condition ="$data['briefdes']">
+					<dd><label><img src="__PUBLIC__/Businesscard/images/write.png" /></label>{$data.briefdes}</dd>
+					</if>
+				</dl>
+				</li>
+				<li class="b"></li>
+			</ul>
+			<div class="bottom">
+				<if condition="$data['isweb'] eq 1">
+				<a href="../web/">进入微官网</a>
+				</if>
+				<a href="http://api.map.baidu.com/marker?location={$data.loc}&title={$data.company|urlencode}&name={$data.company|urlencode}&content={$data.add|urlencode}&output=html">一键导航</a>
+				<a href="#share">分享给朋友</a>
+				<if condition ="$data['customize']">
+				<a href="{$data.customizeurl}">{$data.customize}</a>
+				</if>
+			</div>
+		</div>
+		<div id="share"><img src="__PUBLIC__/Businesscard/images/share.png" /></div>
+		<script language="javascript">
+			window.PG.share={
+				title:'{$data.name}的微名片',
+				desc:'{$data.name}',
+				img_url:'{$data.imgpath}'
+			}
+		</script>
+	</body>
+</html>

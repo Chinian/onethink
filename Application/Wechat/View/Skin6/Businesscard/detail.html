@@ -1,0 +1,111 @@
+<include file="Default/Businesscard/header" />
+		<script type="text/javascript">
+			$(function(){
+					setSize();
+					$(window).resize(setSize);
+					});
+function setSize(){
+	var l1 = ($(window).width()-$('section').width())/2;
+	var l2 = ($(window).width()-$('#businesscard_skin_6').width())/2;
+	$('section').css({'left':l1});
+	$('#businesscard_skin_6').css({'left':l2});
+	$('#businesscard_skin_6').height($(window).height());
+}
+</script>
+<div id="businesscard_skin_6"></div>
+<audio id="mc" src="{$data.bgm}" autoplay></audio>
+<div id="music"><img src="__PUBLIC__/Businesscard/images/on.png" /></div>
+<section id="section1">
+<div class="box1">
+	<div class="face_item"><img src="{$data.imgpath}" /></div>
+	<div class="code_item">
+		<div class="code show_code"><img src="{$data.codeimgpath}" /></div>
+		<div class="name">二维码</div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="box2">
+	<span>{$data.name}</span>
+	<span>{$data.posts}</span>
+</div>
+<div class="clear"></div>
+<div class="box3">
+	<div class="box3_list">
+		<div class="icon1 bg1"></div>
+		<div class="info1">{$data.company}</div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	<div class="box3_list">
+		<div class="icon1 bg2" style="width:7%;"></div>
+		<div class="info"><a href="tel:{$data.mobile}">{$data.mobile}</a></div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	<if condition ="$data['tel']">
+	<div class="box3_list">
+		<div class="icon1 bg3"></div>
+		<div class="info"><a href="tel:{$data.tel}">{$data.tel}</a></div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	</if>
+	<if condition ="$data['fax']">
+	<div class="box3_list">
+		<div class="icon1 bg4"></div>
+		<div class="info"><a href="tel:{$data.fax}">{$data.fax}</a></div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	</if>
+	<if condition ="$data['qq']">
+	<div class="box3_list">
+		<div class="icon1 bg7"></div>
+		<div class="info">QQ　{$data.qq}</div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	</if>
+	<if condition ="$data['email']">
+	<div class="box3_list">
+		<div class="icon1 bg5"></div>
+		<div class="info1">{$data.email}</div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	</if>
+	<div class="box3_list">
+		<div class="icon1 bg6"></div>
+		<div class="info1">{$data.add}</div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	<if condition ="$data['briefdes']">
+	<div class="box3_list">
+		<div class="icon1 bg8"></div>
+		<div class="info1">简短描述简短描述</div>
+		<div class="clear"></div>
+	</div>
+	<div class="box3_line"></div>
+	</if>
+</div>
+<div class="box4">
+	<if condition="$data['isweb'] eq 1">
+	<div class="f_icon"><a href="../web/"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_6/f1.png" /></a></div>
+	</if>
+	<div class="f_icon"><a href="http://api.map.baidu.com/marker?location={$data.loc}&title={$data.company|urlencode}&name={$data.company|urlencode}&content={$data.add|urlencode}&output=html"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_6/f2.png" /></a></div>
+	<div class="f_icon"><a href="#share"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_6/f3.png" /></a></div>
+	<div class="f_icon"><a href="tel:手机手机"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_6/f4.png" /></a></div>
+</div>
+</section>
+<div id="hidcode"><img src="{$data.codeimgpath}" /><div class="close_btn">关闭</div></div>
+
+<script language="javascript">
+	window.PG.share={
+		title:'{$data.name}的微名片',
+		desc:'{$data.name}',
+		img_url:'{$data.imgpath}'
+	}
+</script>
+</body>
+</html>

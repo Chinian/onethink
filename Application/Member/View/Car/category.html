@@ -1,0 +1,35 @@
+<extend name="base_template" />
+
+<block name="header">
+<script type='text/javascript' src='__PUBLIC__/static/plugin/dragsort/jquery.dragsort-0.5.2.min.js'></script>
+<link href='__PUBLIC__/static/plugin/operamasks-ui/operamasks-ui.css' rel='stylesheet' type='text/css'  />
+<script type='text/javascript' src='__PUBLIC__/static/plugin/operamasks-ui/operamasks-ui.min.js' ></script>
+<script type='text/javascript'>$(document).ready(app_car_obj.products_category_init);</script>
+</block>
+
+<block name="main">
+<div class="category">
+	<div class="m_lefter">
+		<dl>
+			<volist name="cates" id="c">
+			<dd CateId="{$c.id}">
+				<div class="category no_ext">
+					<a href="{:U('Car/category', array('id' => $c['id']))}" title="修改"><img src="__PUBLIC__/Member/images/mod.gif" align="absmiddle" /></a>
+					<a class="category-del" data-url="{:U('Car/delCategory')}" data-id="{$c.id}" title="删除"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" /></a>
+					<!--<img src="{$c.imgpath}" width="60" />-->
+					{$c.name}
+				</div>
+			</dd>
+			</volist>
+		</dl>
+	</div>
+	<div class="m_righter">
+		<present name="cate">
+		<include file="Car/mod_form" />
+		<else />
+		<include file="Car/add_form" />
+		</present>
+	</div>
+	<div class="clear"></div>
+</div>
+</block>

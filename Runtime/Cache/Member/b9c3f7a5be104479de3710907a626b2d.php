@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"status":"1","filepath":"./Public/static/upload/553df6d541f96.mp3"}

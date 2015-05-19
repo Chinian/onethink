@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"status":"1","filepath":"./Public/Hotel/images/5539ed7cea09c.png"}

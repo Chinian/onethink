@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<meta content="telephone=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>城市微联盟-农林牧渔</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Wechat/api/css/secondhand.css"/>
+	</head>
+	<body>
+		<header class="header">
+		<div id="back">
+			<img src="__PUBLIC__/Wechat/api/images/back.png" onClick="history.back(-1)"/>
+		</div>
+		<div class="header_title">农林牧渔</div>
+		<div id="my">
+			<a href="{:U('vip/index')}"><img src="__PUBLIC__/Wechat/api/images/my_icon.png" /></a>
+		</div>
+		<div class="clear" ></div>
+		</header>
+		<div class="container">
+			<volist name="data" id="channel">
+			<div class="sh_type_box">
+				<h3><a href="{:U('info/lists', array('channel' => $channel['id']))}">{$channel.title}</a></h3>
+				<ul>
+					<volist name="channel.child" id="category">
+					<a href="{:U('info/lists', array('category' => $category['id']))}"><li>{$category.title}</li></a>
+					</volist>
+					<li class="clear"></li>
+				</ul>
+			</div>
+			</volist>
+		</div>
+		<footer id="footer">
+		<a href="{:U('info/edit')}"><div id="publish">发布信息</div></a>
+		<div class="clear"></div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<include file="head"/>
+<div class="r_nav">
+	<ul>
+		<li class=""><a href="{:U('Hotel/index')}">基本设置</a></li>
+		<li class=""><a href="{:U('Hotel/products')}">房间类型</a></li>
+		<li class="cur"><a href="{:U('Hotel/reserve')}">预订订单管理</a></li>
+	</ul>
+</div>
+<div id="reserve" class="r_con_wrap">
+
+<script type='text/javascript' src='__PUBLIC__/member/js/app_hotels.js?t=20150325' ></script>
+
+	<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/moment.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.css" media="all">
+	<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.js"></script>
+	<script language="javascript">$(document).ready(app_hotels_obj.reserve_list_init);</script>
+	<div class="control_btn"><a href="http://weixin.jucheng01.com/member/?m=app_hotels&amp;a=reserve&amp;d=edit" class="btn_ok btn_ok_w_120">预订设置</a></div>
+	<form class="r_con_search_form" id="search_form" method="get" action="{:U()}?">
+		关键词：<input name="Keyword" value="" class="form_input" size="15" type="text">
+		时间：<input class="form_input" name="Time" value="" maxlength="20" type="text">
+		<input class="search_btn" value="搜索" type="submit">
+		<input name="m" value="Member" type="hidden">
+		<input name="a" value="reserve" type="hidden">
+		<input name="c" value="Hotel" type="hidden">
+	</form>
+	<table class="r_con_table" border="0" cellpadding="5" cellspacing="0">
+		<thead>
+			<tr>
+				<td nowrap="nowrap" width="8%">序号</td>
+				<td nowrap="nowrap" width="12%">联系人</td>
+				<td nowrap="nowrap" width="10%">联系手机</td>
+				<td nowrap="nowrap" width="12%">入住日期</td>
+				<td nowrap="nowrap" width="10%">入住时间</td>
+				<td nowrap="nowrap" width="12%">离店日期</td>
+				<td nowrap="nowrap" width="10%">离店时间</td>
+				<td nowrap="nowrap" width="12%">预订房型</td>
+				<td nowrap="nowrap" width="10%">提交时间</td>
+				<td nowrap="nowrap" width="10%">订单状态</td>
+				<td class="last" width="10%">操作</td>
+			</tr>
+		</thead>
+		<tbody>
+		<volist name="data.reserve" id="val">
+			<tr>
+				<td nowrap="nowrap">{$val.id}</td>
+				<td>{$val.name}</td>
+				<td>{$val.phone}</td>
+				<td>{$val.checkin_time|date="Y-m-d",###}</td>
+				<td>{$val.checkin_time|date="H:i",###}</td>
+				<td>{$val.departure_time|date="Y-m-d",###}</td>
+				<td>{$val.departure_time|date="H:i",###}</td>
+				<td>{$val.pname}</td>
+				<td nowrap="nowrap">{$val.inputtime|date="Y-m-d H:i",###}</td>
+				<td nowrap="nowrap">{$val.status}</td>
+				<td class="last" nowrap="nowrap"><a href="{:U('hotel/reservedetail', array('id' => $val['id']))}">
+				<img src="__PUBLIC__/Member/images/view.gif" alt="预订查看" align="absmiddle"></a>
+				<a href="http://weixin.jucheng01.com/member/?m=app_hotels&amp;a=reserve&amp;do_action=app_hotels.reserve_list_del&amp;LId=63" onclick="if(!confirm('删除后不可恢复，继续吗？')){return false};">
+				<img src="__PUBLIC__/Member/images/del.gif" alt="删除" align="absmiddle">
+				</a>
+				</td>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+	<div class="blank20"></div>
+	{$page}
+	</div>
+	</div>	</div>
+</div>
+<include file="moment"/>
+</body>
+</html>

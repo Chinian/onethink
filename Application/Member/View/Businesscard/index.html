@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>微信公众平台管理系统</title>
+		<link href='__PUBLIC__/static/css/global.css' rel='stylesheet' type='text/css'  />
+		<link href='__PUBLIC__/static/css/frame.css' rel='stylesheet' type='text/css'  />
+		<script type='text/javascript' src='__PUBLIC__/static/js/jquery-1.7.2.min.js' ></script>
+		<script type='text/javascript' src='__PUBLIC__/static/js/frame.js' ></script>
+	</head>
+
+	<body>
+		<script language="javascript">$(document).ready(frame_obj.search_form_init);</script>
+		<div id="iframe_page">
+			<div class="iframe_content">
+				<link href='__PUBLIC__/Member/css/businesscard.css' rel='stylesheet' type='text/css'  />
+				<script type='text/javascript' src='__PUBLIC__/Member/js/businesscard.js' ></script>
+				<div class="r_nav">
+					<ul>
+						<li class="cur"><a href="__CONTROLLER__">微名片</a></li>
+					</ul>
+					</div><div id="businesscard" class="r_con_wrap">
+					<div class="control_btn">
+						<a href="{:U('Businesscard/edit')}" class="btn_ok btn_ok_w_120">添加名片</a>
+						<div class="tips_info"><strong>提示：</strong>向公众帐号发送姓名即可查看名片信息</div>
+					</div>
+					<table width="100%" align="center" border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+						<thead>
+							<tr>
+								<td width="10%">序号</td>
+								<td width="15%">姓名</td>
+								<td width="15%">手机</td>
+								<td width="15%">电话</td>
+								<td width="15%">QQ</td>
+								<td width="20%">时间</td>
+								<td width="10%" class="last">操作</td>
+							</tr>
+						</thead>
+						<tbody> 
+							<volist name="data.card" id="v">
+							<tr>
+								<td nowrap="nowrap">{$v.id}</td>
+								<td nowrap="nowrap">{$v.name}</td>
+								<td nowrap="nowrap">{$v.mobile}</td>
+								<td nowrap="nowrap">{$v.tel}</td>
+								<td nowrap="nowrap">{$v.qq}</td>
+								<td nowrap="nowrap">{$v.inputtime|date="Y-m-d H:i",###}</td>
+								<td class="last" nowrap="nowrap">
+									<a href="{:U('Businesscard/edit', array('id' => $v['id']))}"><img src="__PUBLIC__/Member/images/mod.gif" align="absmiddle" alt="修改"></a>
+									<a href="{:U('Businesscard/del', array('id' => $v['id']))}" onclick="if(!confirm('删除后不可恢复，继续吗？')){return false};"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" alt="删除"></a>
+								</td>
+							</tr>
+							</volist>
+						</tbody>
+					</table>
+					<div class="blank20"></div>
+					<div id="turn_page">
+					{$page}
+					</div>
+			</div>	</div>
+		</div>
+	</body>
+</html>

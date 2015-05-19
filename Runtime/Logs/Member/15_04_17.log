@@ -1,0 +1,382 @@
+[ 2015-04-17T14:59:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001988s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+
+[ 2015-04-17T14:59:38+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_advice_info` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0060s ]
+SQL: UPDATE `wechat_wedding_info` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2015-04-17T14:59:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001713s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+
+[ 2015-04-17T14:59:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002514s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003136s ]
+
+[ 2015-04-17T14:59:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003040s ]
+
+[ 2015-04-17T14:59:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001517s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+
+[ 2015-04-17T14:59:41+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001771s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_advice_info` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0064s ]
+SQL: UPDATE `wechat_wedding_info` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-04-17T15:05:02+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+
+[ 2015-04-17T15:15:02+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002777s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003629s ]
+
+[ 2015-04-17T15:35:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004595s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005541s ]
+
+[ 2015-04-17T15:37:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003246s ]
+
+[ 2015-04-17T15:37:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002984s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003597s ]
+
+[ 2015-04-17T15:40:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002478s ]
+
+[ 2015-04-17T15:40:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003700s ]
+
+[ 2015-04-17T15:40:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001460s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+
+[ 2015-04-17T15:47:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001833s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+
+[ 2015-04-17T15:47:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001673s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+
+[ 2015-04-17T15:47:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001875s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002347s ]
+
+[ 2015-04-17T15:48:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002833s ]
+
+[ 2015-04-17T16:17:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002861s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003321s ]
+
+[ 2015-04-17T16:18:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002578s ]
+
+[ 2015-04-17T16:19:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002385s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002912s ]
+
+[ 2015-04-17T16:23:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004060s ]
+
+[ 2015-04-17T16:26:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003933s ]
+
+[ 2015-04-17T16:26:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002319s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002873s ]
+
+[ 2015-04-17T16:26:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001650s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+
+[ 2015-04-17T16:26:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001827s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+
+[ 2015-04-17T16:26:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001541s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+
+[ 2015-04-17T16:26:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003590s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004550s ]
+
+[ 2015-04-17T16:27:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001392s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-04-17T16:29:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001867s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+
+[ 2015-04-17T16:30:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003704s ]
+
+[ 2015-04-17T16:34:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001836s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+
+[ 2015-04-17T16:36:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003007s ]
+
+[ 2015-04-17T16:38:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+
+[ 2015-04-17T16:38:53+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001874s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002262s ]
+
+[ 2015-04-17T16:39:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002973s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003546s ]
+
+[ 2015-04-17T16:41:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002246s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002716s ]
+
+[ 2015-04-17T16:43:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001866s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+
+[ 2015-04-17T16:49:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003432s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+
+[ 2015-04-17T17:16:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003461s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004566s ]
+
+[ 2015-04-17T17:16:06+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002404s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002903s ]
+
+[ 2015-04-17T17:16:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001999s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002398s ]
+
+[ 2015-04-17T17:16:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001514s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+
+[ 2015-04-17T17:17:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005232s ]
+
+[ 2015-04-17T17:20:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002854s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003405s ]
+
+[ 2015-04-17T17:22:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+
+[ 2015-04-17T17:27:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001923s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-04-17T17:27:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002817s ]
+
+[ 2015-04-17T17:28:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002480s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002983s ]
+
+[ 2015-04-17T17:29:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+
+[ 2015-04-17T17:30:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001737s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+
+[ 2015-04-17T18:09:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002601s ]
+
+[ 2015-04-17T18:14:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002696s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003217s ]
+
+[ 2015-04-17T18:15:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002484s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003008s ]
+
+[ 2015-04-17T18:22:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002824s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003402s ]
+
+[ 2015-04-17T18:22:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004392s ]
+
+[ 2015-04-17T18:22:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+
+[ 2015-04-17T18:22:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003587s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004554s ]
+
+[ 2015-04-17T18:24:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/infoview/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001734s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+

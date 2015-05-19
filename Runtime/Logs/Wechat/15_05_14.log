@@ -1,0 +1,122 @@
+[ 2015-05-14T10:00:34+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0373s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wechat_car_news_category` [ RunTime:0.0275s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-05-14T17:01:43+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.2195s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.281118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2015-05-14T17:02:13+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.040272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005340s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.1209s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0841s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0212s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wechat_car_products` [ RunTime:0.1390s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_products` WHERE `cateid` = 7  [ RunTime:0.0148s ]
+
+[ 2015-05-14T17:02:26+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.013420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.1099s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.1197s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve` [ RunTime:0.0694s ]
+SQL: INSERT INTO `wechat_car_reserve` (`name`,`tel`,`car_cate`,`car_product`,`reserve_time`,`remark`,`input_time`) VALUES ('方文同','124234','7','16','1431655200','','1431594146') [ RunTime:0.1987s ]
+
+[ 2015-05-14T17:02:31+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005744s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.2005s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.1382s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0038s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.416271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.417747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018548s ]
+
+[ 2015-05-14T17:02:39+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004716s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0602s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.1413s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0013s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` asc,`id` LIMIT 7   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve` [ RunTime:0.1761s ]
+SQL: INSERT INTO `wechat_car_reserve` (`name`,`tel`,`car_cate`,`car_product`,`reserve_time`,`remark`,`input_time`) VALUES ('1421342134','341234123412342134','0','0','1431568800','','1431594159') [ RunTime:0.0728s ]
+

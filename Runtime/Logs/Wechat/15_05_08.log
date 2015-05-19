@@ -1,0 +1,1010 @@
+[ 2015-05-08T12:00:08+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002829s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-05-08T12:01:19+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/about.html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+ERR: 非法操作:about
+
+[ 2015-05-08T12:01:25+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-05-08T12:01:32+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 非法操作:contact
+
+[ 2015-05-08T16:16:16+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002599s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0381s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Wechat/View/Car/base.html): failed to open stream: No such file or directory D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Template.class.php 第 700 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-05-08T16:16:32+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2015-05-08T16:21:56+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.2366s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-05-08T16:26:47+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004564s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-05-08T16:27:06+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003368s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-05-08T16:27:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002694s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-05-08T16:34:58+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002902s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0567s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2015-05-08T16:34:59+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002727s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2015-05-08T16:35:37+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002659s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2015-05-08T16:36:16+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002653s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-05-08T16:38:18+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002958s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-05-08T16:39:37+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003574s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2015-05-08T16:39:56+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002948s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 46 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-05-08T16:40:04+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-05-08T16:40:13+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002888s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2015-05-08T16:40:25+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-05-08T16:41:06+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0218s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-05-08T16:53:45+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+
+[ 2015-05-08T16:53:54+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004918s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2015-05-08T16:54:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-05-08T16:56:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2015-05-08T17:03:13+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003507s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0504s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.292144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.292220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-05-08T17:04:37+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002299s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `wechat_car_news_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-05-08T17:04:38+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003497s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `wechat_car_news_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-05-08T17:05:47+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002786s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `wechat_car_news_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_news_category`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: list D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-05-08T17:06:18+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `wechat_car_news_category` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `wechat_car_config`  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_car_category` ORDER BY `order` desc,`id` LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name` FROM `wechat_car_news_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\d6f83fe2952d163490b253d4178bf401.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-05-08T17:07:52+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003800s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+ERR: 非法操作:contact
+
+[ 2015-05-08T17:19:06+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002706s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-05-08T17:21:47+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002598s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0656s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 92 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 93 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2015-05-08T17:21:47+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002583s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 92 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 93 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-05-08T17:21:58+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.1253s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 92 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 93 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-05-08T17:25:28+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002396s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 47 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 49 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 50 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 50 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 51 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-05-08T17:25:59+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002945s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 85 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-05-08T17:27:51+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002894s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 85 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-05-08T17:28:05+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002863s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2015-05-08T17:29:22+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001882s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `wechat_car_sales`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-05-08T17:31:49+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003463s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `wechat_car_sales` ORDER BY `order` desc,`id`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-05-08T17:32:30+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Car/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001652s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `wechat_car_sales` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `wechat_car_sales` ORDER BY `order` desc,`id`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 86 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 87 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\test\onethink\Runtime\Cache\Wechat\407e0efe668b2f2fef2123a42b46de93.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+

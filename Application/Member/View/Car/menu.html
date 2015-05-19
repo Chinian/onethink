@@ -1,0 +1,12 @@
+<div class="r_nav">
+	<ul>
+		<li <eq name="ACTION_NAME" value="index">class="cur"</eq> ><a href="{:U('Car/index')}">基本设置</a></li>
+		<li <if condition="(ACTION_NAME eq products) OR (ACTION_NAME eq category)">class="cur"</if> ><a href="{:U('Car/products')}">车系管理</a></li>
+		<li <eq name="ACTION_NAME" value="news">class="cur"</eq> ><a href="{:U('Car/news')}">活动资讯</a></li>
+		<li <eq name="ACTION_NAME" value="reserve">class="cur"</eq> ><a href="{:U('Car/reserve')}">预约管理</a></li>
+		<li <eq name="ACTION_NAME" value="about">class="cur"</eq> ><a href="{:U('Car/about')}">关于我们</a></li>
+		<li <eq name="ACTION_NAME" value="sales">class="cur"</eq> ><a href="{:U('Car/sales')}">联系销售</a></li>
+		<li <eq name="ACTION_NAME" value="plugin">class="cur"</eq> ><a href="{:U('Car/plugin')}">实用工具</a></li>
+		<li <eq name="ACTION_NAME" value="owner">class="cur"</eq> ><a href="{:U('Car/owner')}">车主关怀</a></li>
+	</ul>
+</div>

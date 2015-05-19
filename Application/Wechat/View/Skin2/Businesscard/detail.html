@@ -1,0 +1,130 @@
+<include file="Default/Businesscard/header" />
+		<style>body,html{  background:#2c2c2c;}</style>
+		<div id="businesscard_skin_2">
+			<audio id="mc" src="{$data.bgm}" autoplay></audio>
+			<div id="music"><img src="__PUBLIC__/Businesscard/images/on.png" /></div>
+			<div class="box1">
+				<div class="box1_item">
+					<div class="face_item"><img src="{$data.imgpath}" /></div>
+					<div class="info_item">
+						<div class="title">
+							<span>{$data.name}</span>
+							<span>{$data.posts}</span>
+						</div>
+						<div class="contact">
+							<span><img src="__PUBLIC__/Businesscard/images/businesscard/skin_2/phone.png" /></span>
+							<span><a href="tel:{$data.mobile}">联系我</a></span>
+							<span class="show_code"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_2/icon2.png" /></span>
+						</div>
+						<div class="clear"></div>
+						<div class="company">{$data.company}</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="box2">
+				<div class="box2_list1">
+					<div class="box2_item">
+						<div class="icon bg1"></div>
+						<div class="info"><a href="tel:{$data.mobile}">{$data.mobile}</a></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<if condition ="$data['tel']">
+				<div class="box2_list2">
+					<div class="box2_item">
+						<div class="icon bg2"></div>
+						<div class="info"><a href="tel:{$data.tel}">{$data.tel}</a></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				</if>
+				<if condition ="$data['fax']">
+				<div class="box2_list1">
+					<div class="box2_item">
+						<div class="icon bg3"></div>
+						<div class="info"><a href="tel:{$data.fax}">{$data.fax}</a></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				</if>
+				<if condition ="$data['qq']">
+				<div class="box2_list2">
+					<div class="box2_item">
+						<div class="icon bg6"></div>
+						<div class="info">{$data.qq}</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				</if>
+				<if condition ="$data['email']">
+				<div class="box2_list1">
+					<div class="box2_item">
+						<div class="icon bg4"></div>
+						<div class="info1">{$data.email}</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				</if>
+				<div class="box2_list2">
+					<div class="box2_item">
+						<div class="icon bg5"></div>
+						<div class="info1">{$data.add}</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<if condition ="$data['briefdes']">
+				<div class="box2_list2">
+					<div class="box2_item">
+						<div class="icon bg8"></div>
+						<div class="info1">{$data.briefdes}</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				</if>
+			</div>
+			<div class="box3">
+				<if condition="$data['isweb'] eq 1">
+				<div class="box3_btn" onClick="window.location=window.PG.url_pre+'web/'">
+					<div class="icon1 f1"></div>
+					<div class="title">进入微官网</div>
+					<div class="icon2"></div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				<div class="box3_btn" onClick="window.location='http://api.map.baidu.com/marker?location={$data.loc}&title={$data.company|urlencode}&name={$data.company|urlencode}&content={$data.add|urlencode}&output=html'">
+					<div class="icon1 f2"></div>
+					<div class="title">一键导航</div>
+					<div class="icon2"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="box3_btn">
+					<div class="icon1 f3"></div>
+					<div class="title"><a href="#share">分享给朋友</a></div>
+					<div class="icon2"></div>
+					<div class="clear"></div>
+				</div>
+				<if condition ="$data['customize']">
+				<div class="box3_btn" onClick="window.location='链接地址'">
+					<div class="icon1 f3"></div>
+					<div class="title"><a href="{$data.customizeurl}">{$data.customize}</a></div>
+					<div class="icon2"></div>
+					<div class="clear"></div>
+				</div>
+				</if>
+			</div>
+		</div>
+		<div id="hidcode">
+			<img src="{$data.codeimgpath}" />
+			<div class="close_btn">关闭</div>
+		</div>
+
+		<script language="javascript">
+			window.PG.share={
+				title:'{$data.name}的微名片',
+				desc:'{$data.name}',
+				img_url:'{$data.imgpath}'
+			}
+		</script>
+	</body>
+</html>

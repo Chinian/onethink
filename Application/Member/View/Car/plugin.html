@@ -1,0 +1,28 @@
+<extend name="base_template" />
+
+<block name="header">
+<script language="javascript">$(document).ready(app_car_obj.plugin_init);</script>
+</block>
+
+<block name="main">
+<table width="100%" align="center" border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+	<thead>
+		<tr>
+			<td width="10%">序号</td>
+			<td width="20%">工具名称</td>
+			<td width="50%">链接地址</td>
+			<td width="20%">状态</td>
+		</tr>
+	</thead>
+	<tbody>
+		<volist name="plugin" id="v">
+		<tr>
+			<td>{$v.id}</td>
+			<td>{$v.name}</td>
+			<td class="left"><a href="{$v.url}" target="_blank">{$v.url}</a></td>
+			<td><img src="__PUBLIC__/Member/images/<eq name="v.status" value="1">on<else/>off</eq>.gif" plugin="{$v.id}" Status="{$v.status}" /></td>
+		</tr>
+		</volist>
+	</tbody>
+</table>
+</block>

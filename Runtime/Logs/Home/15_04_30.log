@@ -1,0 +1,43 @@
+[ 2015-04-30T14:57:13+08:00 ] ::1 /test/onethink/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002731s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `ot_config` [ RunTime:0.1341s ]
+SQL: SELECT `type`,`name`,`value` FROM `ot_config` WHERE `status` = 1  [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `ot_category` [ RunTime:0.1201s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`model_sub`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon`,`groups` FROM `ot_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0625s ]
+SQL: SHOW COLUMNS FROM `ot_document` [ RunTime:0.1388s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `ot_document` WHERE `status` = 1 AND `pid` = 0 AND `create_time` < 1430377032 AND ( deadline = 0 OR deadline > 1430377032 ) ORDER BY `id` DESC  [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `ot_channel` [ RunTime:0.0683s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target` FROM `ot_channel` WHERE ( status=1 ) ORDER BY sort  [ RunTime:0.0139s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`model_sub`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon`,`groups` FROM `ot_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `ot_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.186674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+SQL: SELECT `id`,`name`,`title`,`pid`,`sort`,`list_row`,`meta_title`,`keywords`,`description`,`template_index`,`template_lists`,`template_detail`,`template_edit`,`model`,`model_sub`,`type`,`link_id`,`allow_publish`,`display`,`reply`,`check`,`reply_model`,`extend`,`create_time`,`update_time`,`status`,`icon`,`groups` FROM `ot_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`pid`,`title`,`link_id` FROM `ot_category` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`uid`,`name`,`title`,`category_id`,`group_id`,`description`,`root`,`pid`,`model_id`,`type`,`position`,`link_id`,`cover_id`,`display`,`deadline`,`attach`,`view`,`comment`,`extend`,`level`,`create_time`,`update_time`,`status` FROM `ot_document` WHERE `status` = 1 AND `pid` = 0 AND `category_id` IN ('1','2') AND `create_time` < 1430377032 AND ( deadline = 0 OR deadline > 1430377032 ) ORDER BY `level` DESC,`id` DESC LIMIT 0,10   [ RunTime:0.0348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.063968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+

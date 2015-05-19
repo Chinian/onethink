@@ -1,0 +1,82 @@
+<include file="Default/Businesscard/header" />
+		<style type="text/css">body,html{background:#1a2b41;}</style>
+		<div id="businesscard_skin_5">
+			<audio id="mc" src="{$data.bgm}" autoplay></audio>
+			<div id="music"><img src="__PUBLIC__/Businesscard/images/on.png" /></div>
+			<div class="box1">
+				<span class="face_item"><img src="{$data.imgpath}" /></span>
+			</div>
+			<div class="box2">
+				<span>{$data.name}</span>
+				<span>{$data.posts}</span>
+			</div>
+			<div class="box3">
+				<div class="box3_item1">
+					<if condition="$data['isweb'] eq 1">
+					<div class="f_icon"><a href="../web/"><span class="bg1" style="width:34%;"></span></a></div>
+					</if>
+					<div class="f_icon"><a href="http://api.map.baidu.com/marker?location={$data.loc}&title={$data.company|urlencode}&name={$data.company|urlencode}&content={$data.add|urlencode}&output=html"><span class="bg2"></span></a></div>
+					<div class="f_icon"><a href="#share"><span class="bg3"></span></a></div>
+					<div class="f_icon"><a href="tel:手机手机"><span class="bg4"></span></a></div>
+					<div class="f_icon"><span class="bg5 show_code"></span></div>
+				</div>
+			</div>
+			<div class="box4">
+				<div class="box4_list">
+					<div class="icon bg1" style=" width:4.56%;"></div>
+					<div class="info" style="margin-left:19px;">Phone: <a href="tel:{$data.mobile}">{$data.mobile}</a></div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				<if condition ="$data['tel']">
+				<div class="box4_list">
+					<div class="icon bg2"></div>
+					<div class="info1">Telephone: <a href="tel:{$data.mobile}">{$data.mobile}</a></div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				<if condition ="$data['fax']">
+				<div class="box4_list">
+					<div class="icon bg3"></div>
+					<div class="info">Fax: <a href="tel:{$data.fax}">{$data.fax}</a></div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				<if condition ="$data['qq']">
+				<div class="box4_list">
+					<div class="icon bg6"></div>
+					<div class="info">QQ:{$data.qq}</div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				<if condition ="$data['email']">
+				<div class="box4_list">
+					<div class="icon bg4"></div>
+					<div class="info1">Email:{$data.email}</div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				<div class="box4_list">
+					<div class="icon bg5"></div>
+					<div class="info1">Address: {$data.add}</div>
+					<div class="clear"></div>
+				</div>
+				<if condition ="$data['briefdes']">
+				<div class="box4_list">
+					<div class="icon bg7"></div>
+					<div class="info1">Description : {$data.briefdes}</div>
+					<div class="clear"></div>
+				</div>
+				</if>
+			</div>
+		</div>
+		<div id="hidcode"><img src="{$data.codeimgpath}" /><div class="close_btn">关闭</div></div>
+		<script language="javascript">
+			window.PG.share={
+				title:'{$data.name}的微名片',
+				desc:'{$data.name}',
+				img_url:'{$data.imgpath}'
+			}
+		</script>
+	</body>
+</html>

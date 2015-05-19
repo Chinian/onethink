@@ -1,0 +1,12 @@
+<extend name="base_template" />
+
+<block name="main">
+<div class="banner"><img src="{$config.cate_img_path}" /></div>
+<nav>
+<volist name="product" id ="v">
+<div class="nav_list"><a href="{:U('Car/product', array('detail' => $v['id']))}/">{$v.name}</a></div>
+</volist>
+</nav>
+<div style="height:35px;"></div>
+</block>
+

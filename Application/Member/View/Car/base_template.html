@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>微信公众平台管理系统</title>
+		<link href="__PUBLIC__/static/css/global.css" rel="stylesheet" type="text/css"  />
+		<link href="__PUBLIC__/static/css/frame.css" rel="stylesheet" type="text/css"  />
+		<block name="jquery"><script type="text/javascript" src="__PUBLIC__/static/js/jquery-1.7.2.min.js" ></script></block>
+		<script type="text/javascript" src="__PUBLIC__/static/js/frame.js" ></script>
+	</head>
+
+	<body>
+		<script type="text/javascript">$(document).ready(frame_obj.search_form_init);</script>
+		<div id="iframe_page">
+			<div class="iframe_content">
+				<link href="__PUBLIC__/Member/css/app_car.css" rel="stylesheet" type="text/css"  />
+				<script type="text/javascript" src="__PUBLIC__/Member/js/app_car.js" ></script>
+				<block name="menu"><block name="menu"><include file="menu" /></block></block>
+				<block name="header">头部（css，js）</block>
+				<div id="{$Think.ACTION_NAME}" class="r_con_wrap">
+					<block name="main">主内容</block>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<form id="app_car_category_form" class="mod_form">
+	<h1>修改产品分类</h1>
+	<div class="opt_item">
+		<label>类别名称：</label>
+		<span class="input"><input type="text" name="Category" value="{$cate.name}" class="form_input" size="15" maxlength="30" notnull /> 
+			<font class="fc_red">*</font></span>
+		<div class="clear"></div>
+	</div>
+	<div class="opt_item">
+		<label>上传图片：</label>
+		<span class="input">
+			<div class="file_upload"><input name="FileUpload" id="CategoryFileUpload" type="file" /></div>
+			<div class="img_detail" id="CategoryImgDetail"></div>
+			<div class="clear"></div>
+			<div class="tips">图片尺寸建议：640*280px</div>
+		</span>
+		<div class="clear"></div>
+	</div>
+	<div class="opt_item">
+		<label></label>
+		<span class="input">
+			<input type="submit" class="btn_ok btn_ok_w_120" name="submit_button" value="修改分类" />
+			<a href="{:U('Car/products' , array('d' => 'category'))}" class="btn_cancel">返回</a>
+		</span>
+		<div class="clear"></div>
+	</div>
+	<input type="hidden" name="PicPath" value="{$cate.imgpath}">
+	<input type="hidden" name="do_action" value="app_car.products_category">
+	<input type="hidden" name="CateId" value="{$cate.id}">
+	<input type="hidden" name="ajax" value="{$cate.order}">
+</form>

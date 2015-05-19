@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><meta content="telephone=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+		<title>我的酒店</title>
+
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/css/global.css" media="all">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/api/css/global.css" media="all">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Hotel/css/app_hotels.css" media="all">
+
+		<script type="text/javascript" src="__PUBLIC__/static/js/jquery-1.7.2.min.js"></script>
+		<script language="javascript">
+		</script>
+
+	</head>
+	<body>
+
+		<div id="banner"><img src="{$toppic}"></div>
+		<div id="app_hotels">
+			<div class="box">
+				<h3 id="HotelsName">我的酒店</h3>
+				<ul id="prolist">
+					<volist name="data.product" id="val">
+					<li>
+					<a href="{:U('hotel/product', array('id' => $val['id']))}" title="test">
+						<dl>
+							<dt>{$val.name}</dt>
+							<dd>
+							<span><img src=""/></span>
+							<div>{$val.briefdes}</div>
+							<div>原价：<del>￥{$val.price0}.00</del></div>                                <div>优惠价：<i>￥{$val.price1}.00</i></div>
+							</dd>
+						</dl>
+					</a>
+					</li>
+					</volist>
+				</ul>
+			</div>
+			<div class="box">
+				<h3>预订说明</h3>
+				<div id="HotelsRemark" class="contents">{$data.info.des}</div>
+			</div>
+			<ul class="info">
+				<li><a href="http://api.map.baidu.com/geocoder?address={$data.info.name}&amp;output=html" >{$data.info.name}</a></li>
+				<li><a href="tel:{$data.info.phone}">{$data.info.phone} 电话预订</a></li>
+				<li><a href="{:U('hotel/detail', array('article' => 'article'))}">查看商家详情</a></li>
+			</ul>
+		</div>
+		<script language="javascript">
+			window.PG.share={
+				title:'test',
+				desc:'简短介绍',
+				img_url:'http://img.pbweixin.com/16/1504/ff3dc8ec94.png'
+			}
+		</script>
+	</body>
+</html>

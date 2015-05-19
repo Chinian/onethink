@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"status":"1","filepath":"./Public/static/images/upload/553df166737f8.png"}

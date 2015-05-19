@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>城市微联盟-婚庆摄影</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Wedding/css/secondhand.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div id="back">
+				<img src="__PUBLIC__/Wechat/api/images/back.png" onClick="history.back(-1)"/>
+			</div>
+			<div class="header_title">婚庆摄影</div>
+			<div id="my">
+				<a href="{:U('vip/index')}"><img src="__PUBLIC__/Wechat/api/images/my_icon.png" /></a>
+			</div>
+			<div class="clear" ></div>
+	</header>
+		<div class="container">
+			<div class="sh_type_box">
+				<h3><a href="{:U('infolist')}">热门推荐</a></h3>
+				<ul>
+					<a href=""><li>婚纱照</li></a>
+					<a href=""><li>婚礼策划</li></a>
+					<a href=""><li>小米</li></a>
+					<a href=""><li>苹果手机</li></a>
+					<a href=""><li>ipad</li></a>
+					<a href=""><li>小米</li></a>
+					<li class="clear"></li>
+				</ul>
+			</div>
+
+			<volist name="data" id="cate">
+			<div class="sh_type_box">
+				<h3><a href="{:U('Wedding/infolist', array('category' => $cate['id']))}">{$cate.title}</a></h3>
+				<ul>
+					<volist name="cate.child" id="childcate">
+					<a href="{:U('Wedding/infolist', array('category' => $childcate['id']))}"><li>{$childcate.title}</li></a>
+					</volist>
+					<li class="clear"></li>
+				</ul>
+			</div>
+			</volist>
+
+		</div>
+		<footer id="footer">
+			<a href="{:U('infoedit')}"><div id="publish">发布婚庆信息</div></a>
+			<div class="clear"></div>
+		</footer>	
+	</body>
+</html>

@@ -1,0 +1,896 @@
+[ 2015-04-28T09:28:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+
+[ 2015-04-28T09:39:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+
+[ 2015-04-28T09:39:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003436s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004323s ]
+
+[ 2015-04-28T09:40:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003936s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004767s ]
+
+[ 2015-04-28T09:46:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003635s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004232s ]
+
+[ 2015-04-28T09:46:02+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004245s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005032s ]
+
+[ 2015-04-28T09:46:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003972s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004364s ]
+
+[ 2015-04-28T09:47:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002450s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002903s ]
+
+[ 2015-04-28T09:47:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003661s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004271s ]
+
+[ 2015-04-28T09:48:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005766s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006804s ]
+
+[ 2015-04-28T09:48:52+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003584s ]
+
+[ 2015-04-28T09:49:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+
+[ 2015-04-28T09:50:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002708s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003321s ]
+
+[ 2015-04-28T09:50:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002962s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003598s ]
+
+[ 2015-04-28T09:50:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003371s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004236s ]
+
+[ 2015-04-28T09:50:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002811s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003282s ]
+
+[ 2015-04-28T09:50:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003700s ]
+
+[ 2015-04-28T09:50:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003926s ]
+
+[ 2015-04-28T09:50:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002855s ]
+
+[ 2015-04-28T09:50:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002708s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+
+[ 2015-04-28T09:50:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002530s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003043s ]
+
+[ 2015-04-28T09:50:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002669s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003300s ]
+
+[ 2015-04-28T09:50:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+
+[ 2015-04-28T09:51:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002518s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002954s ]
+
+[ 2015-04-28T09:51:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002618s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003063s ]
+
+[ 2015-04-28T09:51:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002851s ]
+
+[ 2015-04-28T09:51:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002676s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003177s ]
+
+[ 2015-04-28T09:51:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002409s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002858s ]
+
+[ 2015-04-28T09:51:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003839s ]
+
+[ 2015-04-28T09:51:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003203s ]
+
+[ 2015-04-28T09:51:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002674s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003124s ]
+
+[ 2015-04-28T09:54:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003897s ]
+
+[ 2015-04-28T09:54:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003560s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004304s ]
+
+[ 2015-04-28T09:54:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002411s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+
+[ 2015-04-28T10:00:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003681s ]
+
+[ 2015-04-28T10:00:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003562s ]
+
+[ 2015-04-28T10:00:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002807s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003510s ]
+
+[ 2015-04-28T10:00:52+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002890s ]
+
+[ 2015-04-28T10:00:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002734s ]
+
+[ 2015-04-28T10:13:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002508s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+
+[ 2015-04-28T10:14:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002682s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003183s ]
+
+[ 2015-04-28T10:16:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002896s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+
+[ 2015-04-28T10:18:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003545s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004046s ]
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2015-04-28T10:18:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002701s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003170s ]
+
+[ 2015-04-28T10:29:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003029s ]
+
+[ 2015-04-28T10:29:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002628s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+
+[ 2015-04-28T10:29:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002470s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002916s ]
+
+[ 2015-04-28T10:30:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+
+[ 2015-04-28T10:30:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002411s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002853s ]
+
+[ 2015-04-28T10:31:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002739s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003357s ]
+
+[ 2015-04-28T10:37:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+
+[ 2015-04-28T10:37:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002674s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003117s ]
+
+[ 2015-04-28T10:38:09+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002648s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0178s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\test\onethink\Application\Member\Logic\CardLogic.class.php 第 21 行.
+SQL: INSERT INTO `wechat_businesscard_card` (`name`,`title`,`replybriefdes`,`skinid`,`bgm`,`company`,`posts`,`mobile`,`tel`,`fax`,`qq`,`email`,`website`,`briefdes`,`add`,`customize`,`customizeurl`,`replyimgpath`,`imgpath`,`codeimgpath`,`loc`,`inputtime`) VALUES ('小明','小明的名片','这是小明的名片','0','./Public/static/upload/553dfffd8e16b.mp3','聚成','php','12345678901','112345','5446777','8989789756','sdfg@artjsda.com','www.sacfoujsdfosd.co','初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒','在这里','233333','233.com','./Public/static/upload/553dffe0e2d77.jpg','./Public/static/upload/553e000742e7a.png','./Public/static/upload/553dfff578209.png','116.403900,39.913900','1430188689') [ RunTime:0.0003s ]
+
+[ 2015-04-28T10:38:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002376s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002760s ]
+
+[ 2015-04-28T10:38:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002448s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003086s ]
+
+[ 2015-04-28T10:38:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+
+[ 2015-04-28T10:38:25+08:00 ] ::1 /test/onethink/member.php?m=businesscard&a=list&BId=1322&do_action=businesscard.businesscard_del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003697s ]
+ERR: 非法操作:list
+
+[ 2015-04-28T10:38:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002987s ]
+
+[ 2015-04-28T10:42:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002377s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002777s ]
+
+[ 2015-04-28T10:45:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002686s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003342s ]
+
+[ 2015-04-28T10:45:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003641s ]
+
+[ 2015-04-28T10:45:54+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002807s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\test\onethink\Application\Member\Logic\CardLogic.class.php 第 21 行.
+SQL: INSERT INTO `wechat_businesscard_card` (`name`,`title`,`replybriefdes`,`skinid`,`bgm`,`company`,`posts`,`mobile`,`tel`,`fax`,`qq`,`email`,`website`,`briefdes`,`add`,`customize`,`customizeurl`,`replyimgpath`,`imgpath`,`codeimgpath`,`loc`,`inputtime`) VALUES ('小明1','小明的名片','这是小明的名片','0','./Public/static/upload/553dfffd8e16b.mp3','聚成','php','12345678901','112345','5446777','8989789756','sdfg@artjsda.com','www.sacfoujsdfosd.co','初从文,三年不中;后习武,校场发一矢,中鼓吏,逐之出;遂学医,有所成。自撰一良方,服之,卒','在这里','233333','233.com','./Public/static/upload/553dffe0e2d77.jpg','./Public/static/upload/553e000742e7a.png','./Public/static/upload/553dfff578209.png','116.403900,39.913900','1430189154') [ RunTime:0.0002s ]
+
+[ 2015-04-28T10:45:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002591s ]
+
+[ 2015-04-28T10:45:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003024s ]
+
+[ 2015-04-28T10:50:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002410s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002986s ]
+
+[ 2015-04-28T10:50:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002619s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003193s ]
+
+[ 2015-04-28T10:50:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002783s ]
+
+[ 2015-04-28T10:50:53+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002413s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0085s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明2',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;后习武,校场发一矢,中鼓吏,逐之出;遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`loc`='116.403900,39.913900',`inputtime`='1430189453' WHERE `id` = 16 [ RunTime:0.0003s ]
+
+[ 2015-04-28T10:50:53+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002598s ]
+
+[ 2015-04-28T10:50:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003091s ]
+
+[ 2015-04-28T10:53:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002965s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003417s ]
+
+[ 2015-04-28T10:53:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/del/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003930s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004554s ]
+ERR: 非法操作:del
+
+[ 2015-04-28T10:58:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/del/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002890s ]
+
+[ 2015-04-28T10:58:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004003s ]
+
+[ 2015-04-28T10:58:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002566s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+
+[ 2015-04-28T10:58:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/del/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002812s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003519s ]
+
+[ 2015-04-28T10:58:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+
+[ 2015-04-28T10:58:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003461s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004333s ]
+
+[ 2015-04-28T10:58:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002316s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002704s ]
+
+[ 2015-04-28T10:59:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002833s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003542s ]
+
+[ 2015-04-28T10:59:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004286s ]
+
+[ 2015-04-28T11:12:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002599s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003058s ]
+
+[ 2015-04-28T13:41:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004749s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005391s ]
+
+[ 2015-04-28T13:42:07+08:00 ] ::1 /test/onethink/wechat.php?s=/Member/Businesscard/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002646s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003262s ]
+ERR: 非法操作:detail
+
+[ 2015-04-28T16:07:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003474s ]
+
+[ 2015-04-28T16:07:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002489s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+
+[ 2015-04-28T16:08:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002300s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002730s ]
+
+[ 2015-04-28T16:08:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002374s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+
+[ 2015-04-28T16:08:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002685s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+
+[ 2015-04-28T16:09:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001856s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002237s ]
+
+[ 2015-04-28T16:09:26+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002439s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0080s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='3425',`title`='2345435',`replybriefdes`='',`skinid`='0',`bgm`='',`company`='435',`posts`='45',`mobile`='2345',`tel`='',`fax`='',`qq`='',`email`='',`website`='',`briefdes`='',`add`='2435435',`customize`='',`customizeurl`='',`replyimgpath`='',`imgpath`='',`codeimgpath`='',`loc`='39.91391,116.403797',`inputtime`='1430208566' WHERE `id` = 1 [ RunTime:0.1227s ]
+
+[ 2015-04-28T16:09:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001611s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2015-04-28T16:09:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001711s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+
+[ 2015-04-28T16:09:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001991s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002555s ]
+
+[ 2015-04-28T16:09:40+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001832s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0122s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`loc`='39.913942,116.403774',`inputtime`='1430208580' WHERE `id` = 15 [ RunTime:0.0004s ]
+
+[ 2015-04-28T16:09:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001400s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+
+[ 2015-04-28T16:14:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+
+[ 2015-04-28T16:14:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002328s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+
+[ 2015-04-28T16:14:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001841s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002349s ]
+
+[ 2015-04-28T16:46:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002467s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002916s ]
+
+[ 2015-04-28T17:02:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002422s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002871s ]
+
+[ 2015-04-28T17:02:53+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002711s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003271s ]
+
+[ 2015-04-28T17:02:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002624s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003045s ]
+
+[ 2015-04-28T17:03:07+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001910s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0213s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='3425',`title`='2345435',`replybriefdes`='',`skinid`='0',`bgm`='',`company`='435',`posts`='45',`mobile`='2345',`tel`='',`fax`='',`qq`='',`email`='',`website`='',`briefdes`='',`add`='2435435',`customize`='',`customizeurl`='',`replyimgpath`='',`imgpath`='',`codeimgpath`='',`loc`='39.91492,116.39224',`inputtime`='1430211787' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-04-28T17:03:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001504s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+
+[ 2015-04-28T17:03:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003006s ]
+
+[ 2015-04-28T17:03:21+08:00 ] ::1 /test/onethink/member.php?m=businesscard&a=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001501s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+ERR: 非法操作:list
+
+[ 2015-04-28T17:03:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001651s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+
+[ 2015-04-28T17:03:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001933s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002520s ]
+
+[ 2015-04-28T17:03:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001679s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002081s ]
+
+[ 2015-04-28T17:03:45+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0209s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`loc`='39.912942,116.407839',`inputtime`='1430211825' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-28T17:03:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001387s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+
+[ 2015-04-28T17:03:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001812s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002301s ]
+
+[ 2015-04-28T17:03:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+
+[ 2015-04-28T17:06:24+08:00 ] ::1 /test/onethink/member.php?m=businesscard&a=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002719s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003159s ]
+ERR: 非法操作:list
+
+[ 2015-04-28T17:06:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001778s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+
+[ 2015-04-28T17:06:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+
+[ 2015-04-28T17:06:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002922s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003508s ]
+
+[ 2015-04-28T17:06:43+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0226s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='3425',`title`='2345435',`replybriefdes`='',`skinid`='0',`bgm`='',`company`='435',`posts`='45',`mobile`='2345',`tel`='',`fax`='',`qq`='',`email`='',`website`='',`briefdes`='',`add`='2435435',`customize`='',`customizeurl`='',`replyimgpath`='',`imgpath`='',`codeimgpath`='',`loc`='36.625993,114.510865',`inputtime`='1430212003' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2015-04-28T17:06:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002834s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003269s ]
+
+[ 2015-04-28T17:06:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002472s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002916s ]
+
+[ 2015-04-28T17:07:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000390s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003107s ]
+
+[ 2015-04-28T17:07:50+08:00 ] ::1 /test/onethink/member.php?m=businesscard&a=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+ERR: 非法操作:list
+
+[ 2015-04-28T17:08:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+
+[ 2015-04-28T17:08:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002745s ]
+
+[ 2015-04-28T17:08:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/Businesscard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+ERR: 非法操作:Businesscard
+
+[ 2015-04-28T17:09:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001632s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+
+[ 2015-04-28T17:09:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002610s ]
+
+[ 2015-04-28T17:09:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001718s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+
+[ 2015-04-28T17:09:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004987s ]
+
+[ 2015-04-28T17:09:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002690s ]
+
+[ 2015-04-28T17:10:13+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+
+[ 2015-04-28T17:10:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001622s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+
+[ 2015-04-28T17:10:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004935s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005681s ]
+
+[ 2015-04-28T17:10:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002665s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+
+[ 2015-04-28T17:10:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004178s ]
+
+[ 2015-04-28T17:11:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002396s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002802s ]
+
+[ 2015-04-28T17:11:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002680s ]
+
+[ 2015-04-28T17:41:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002528s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002985s ]
+
+[ 2015-04-28T17:41:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002487s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+

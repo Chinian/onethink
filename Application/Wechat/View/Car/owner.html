@@ -1,0 +1,26 @@
+<extend name="base_template" />
+
+<block name="logo"></block>
+
+<block name="menu"></block>
+
+<block name="custom_header"><style type="text/css">body,html{background:#ECECEC;}</style></block>
+
+<block name="main">
+
+<div class="banner"><img src="{$config.owner_img_path}" /></div>
+
+<div class="article clean">
+	<div class="owner_content" style="padding-top:10px;">
+{$owner}
+	</div>
+	<div class="frame2">
+		<div class="b1"><input type="button" class="btn2" value="联系销售" onClick="window.location=window.PG.url_pre_module+'contact/'" /></div>
+		<div class="b2"><input type="button" class="btn2" value="预约试驾" onClick="window.location=window.PG.url_pre_module+'feedback/sj/'" /></div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+
+
+</block>

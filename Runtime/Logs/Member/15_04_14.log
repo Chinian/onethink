@@ -1,0 +1,570 @@
+[ 2015-04-14T15:20:31+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_wedding_advice' doesn't exist
+
+[ 2015-04-14T15:21:12+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+
+[ 2015-04-14T15:31:29+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002643s ]
+
+[ 2015-04-14T15:41:11+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+
+[ 2015-04-14T15:41:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002323s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+
+[ 2015-04-14T15:42:29+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001492s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+
+[ 2015-04-14T15:42:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001644s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2015-04-14T15:42:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001598s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+
+[ 2015-04-14T15:42:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001475s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+
+[ 2015-04-14T15:42:42+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002567s ]
+
+[ 2015-04-14T15:43:02+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+
+[ 2015-04-14T15:46:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001848s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+
+[ 2015-04-14T15:47:11+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002622s ]
+
+[ 2015-04-14T15:47:33+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001423s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+
+[ 2015-04-14T15:51:05+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002590s ]
+
+[ 2015-04-14T15:51:06+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002654s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003398s ]
+
+[ 2015-04-14T15:51:55+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001547s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+
+[ 2015-04-14T15:52:19+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001864s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002338s ]
+
+[ 2015-04-14T15:52:34+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002451s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+
+[ 2015-04-14T15:58:41+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001873s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002263s ]
+
+[ 2015-04-14T15:59:08+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002875s ]
+
+[ 2015-04-14T15:59:09+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001739s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+
+[ 2015-04-14T15:59:09+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001547s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+
+[ 2015-04-14T15:59:09+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001529s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+
+[ 2015-04-14T16:00:28+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002860s ]
+
+[ 2015-04-14T16:01:11+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001864s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+
+[ 2015-04-14T16:02:31+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001880s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+
+[ 2015-04-14T16:03:06+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002612s ]
+
+[ 2015-04-14T16:04:18+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002484s ]
+
+[ 2015-04-14T16:05:04+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001835s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002221s ]
+
+[ 2015-04-14T16:05:23+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002504s ]
+
+[ 2015-04-14T16:08:38+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002580s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+
+[ 2015-04-14T16:09:27+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001829s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002322s ]
+
+[ 2015-04-14T16:16:49+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001838s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002229s ]
+
+[ 2015-04-14T16:19:18+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002812s ]
+
+[ 2015-04-14T16:19:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001914s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002359s ]
+
+[ 2015-04-14T16:20:31+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002494s ]
+
+[ 2015-04-14T16:20:50+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001566s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+
+[ 2015-04-14T16:24:20+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002438s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002827s ]
+
+[ 2015-04-14T17:00:01+08:00 ] ::1 /test/onethink/member.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:00:52+08:00 ] ::1 /test/onethink/member.php?/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001386s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:01:04+08:00 ] ::1 /test/onethink/member.php?/Member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001613s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:01:11+08:00 ] ::1 /test/onethink/member.php?/Member/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002292s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:02:27+08:00 ] ::1 /test/onethink/member.php?/Member/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003981s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:02:30+08:00 ] ::1 /test/onethink/member.php?/Member/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:02:33+08:00 ] ::1 /test/onethink/member.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001648s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_info' doesn't exist
+
+[ 2015-04-14T17:02:56+08:00 ] ::1 /test/onethink/member.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001768s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+
+[ 2015-04-14T17:03:13+08:00 ] ::1 /test/onethink/member.php?s=/Member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001630s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002043s ]
+
+[ 2015-04-14T17:03:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-14T17:03:52+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001737s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+
+[ 2015-04-14T17:03:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001895s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+
+[ 2015-04-14T17:03:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002462s ]
+
+[ 2015-04-14T17:03:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+
+[ 2015-04-14T17:03:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+
+[ 2015-04-14T17:04:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001683s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002087s ]
+
+[ 2015-04-14T17:04:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001491s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+
+[ 2015-04-14T17:04:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001612s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+
+[ 2015-04-14T17:04:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001636s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+
+[ 2015-04-14T17:04:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001779s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+
+[ 2015-04-14T17:05:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001765s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002153s ]
+
+[ 2015-04-14T17:06:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002699s ]
+
+[ 2015-04-14T17:06:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001816s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002194s ]
+
+[ 2015-04-14T17:06:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/moment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002616s ]
+
+[ 2015-04-14T17:06:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/moment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001733s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2015-04-14T17:08:11+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding/pordetc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002588s ]
+ERR: 非法操作:pordetc
+
+[ 2015-04-14T17:08:17+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding/product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001371s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+ERR: 非法操作:product
+
+[ 2015-04-14T17:08:22+08:00 ] ::1 /test/onethink/index.php?s=/Member/Wedding/products
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001596s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+
+[ 2015-04-14T17:08:35+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001591s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+
+[ 2015-04-14T17:08:38+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001589s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001986s ]
+
+[ 2015-04-14T17:08:40+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001738s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002207s ]
+
+[ 2015-04-14T17:20:38+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002990s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003581s ]
+
+[ 2015-04-14T17:20:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002448s ]
+
+[ 2015-04-14T17:20:41+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002750s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003371s ]
+
+[ 2015-04-14T17:20:41+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002720s ]
+
+[ 2015-04-14T17:20:43+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002762s ]
+
+[ 2015-04-14T17:20:43+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+
+[ 2015-04-14T17:20:44+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003167s ]
+
+[ 2015-04-14T17:20:45+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002374s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+
+[ 2015-04-14T17:21:25+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002587s ]
+
+[ 2015-04-14T17:21:27+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002513s ]
+
+[ 2015-04-14T17:21:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Hotel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001999s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+
+[ 2015-04-14T17:21:38+08:00 ] ::1 /test/onethink/index.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001443s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001808s ]
+
+[ 2015-04-14T18:08:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001836s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+
+[ 2015-04-14T18:08:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001604s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002012s ]
+
+[ 2015-04-14T18:08:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002471s ]
+
+[ 2015-04-14T18:08:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Hotel/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001874s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+
+[ 2015-04-14T18:08:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001622s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+
+[ 2015-04-14T18:08:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001677s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+
+[ 2015-04-14T18:09:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002533s ]
+
+[ 2015-04-14T18:09:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001931s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002559s ]
+
+[ 2015-04-14T18:09:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001865s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002259s ]
+ERR: 非法操作:reserve
+
+[ 2015-04-14T18:09:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001683s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+ERR: 非法操作:reserve
+
+[ 2015-04-14T18:09:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/wedding/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002685s ]
+

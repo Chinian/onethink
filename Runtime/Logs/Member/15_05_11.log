@@ -1,0 +1,1280 @@
+[ 2015-05-11T09:14:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.021047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025451s ]
+
+[ 2015-05-11T09:14:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002955s ]
+
+[ 2015-05-11T09:14:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003137s ]
+
+[ 2015-05-11T09:14:58+08:00 ] ::1 /test/onethink/member.php?m=app_car&a=products&do_action=app_car.products_category_order&sort_order=1%7C3%7C2%7C4%7C7%7C5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003270s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+ERR: 非法操作:products
+
+[ 2015-05-11T09:20:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003889s ]
+
+[ 2015-05-11T09:20:08+08:00 ] ::1 /test/onethink/member.php?m=app_car&a=products
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 非法操作:products
+
+[ 2015-05-11T09:23:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002666s ]
+
+[ 2015-05-11T09:23:27+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-05-11T09:44:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005817s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006765s ]
+
+[ 2015-05-11T09:44:50+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2015-05-11T09:45:51+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002485s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2015-05-11T09:51:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.011089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011656s ]
+
+[ 2015-05-11T09:51:11+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002534s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0123s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-05-11T09:51:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002388s ]
+
+[ 2015-05-11T09:51:14+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002578s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0132s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0004s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 2 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2015-05-11T09:51:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002565s ]
+
+[ 2015-05-11T09:51:17+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0116s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-05-11T09:51:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002613s ]
+
+[ 2015-05-11T09:51:20+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002736s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0171s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 2 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-05-11T09:51:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004220s ]
+
+[ 2015-05-11T09:51:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004978s ]
+
+[ 2015-05-11T09:51:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+
+[ 2015-05-11T09:51:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004732s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005893s ]
+
+[ 2015-05-11T09:51:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002501s ]
+
+[ 2015-05-11T09:51:28+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002357s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0124s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 3 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-05-11T09:51:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002615s ]
+
+[ 2015-05-11T09:51:31+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001691s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0117s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 4 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-05-11T09:51:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004839s ]
+
+[ 2015-05-11T09:52:06+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002730s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003277s ]
+
+[ 2015-05-11T09:52:08+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002329s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0115s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 3 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 7 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 4 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-05-11T09:52:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002561s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+
+[ 2015-05-11T09:52:10+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0116s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-05-11T09:52:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003199s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004056s ]
+
+[ 2015-05-11T09:52:11+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002522s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0114s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-05-11T09:52:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002816s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+
+[ 2015-05-11T09:52:12+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002470s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0121s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-05-11T09:52:13+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0128s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 7 [ RunTime:0.0004s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2015-05-11T09:52:13+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002993s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003550s ]
+
+[ 2015-05-11T09:52:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002781s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003297s ]
+
+[ 2015-05-11T09:52:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002694s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003568s ]
+
+[ 2015-05-11T09:52:31+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0281s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-05-11T09:52:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002670s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003178s ]
+
+[ 2015-05-11T09:52:33+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002400s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0129s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-05-11T09:52:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004860s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005846s ]
+
+[ 2015-05-11T09:52:34+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0116s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-05-11T09:52:35+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002560s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0118s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2015-05-11T09:52:35+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0088s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-05-11T09:52:37+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0117s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-05-11T09:52:37+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0086s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2015-05-11T09:52:40+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002323s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0188s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2015-05-11T09:52:41+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002703s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0113s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 5 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-05-11T09:52:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002562s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+
+[ 2015-05-11T09:52:42+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0118s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-05-11T09:52:43+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0111s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-05-11T09:52:44+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002403s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0117s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 7 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-05-11T09:52:45+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0119s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 3 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-05-11T09:52:46+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002512s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0116s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-05-11T09:52:47+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0114s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 4 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-05-11T09:52:48+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0115s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 5 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 1 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-05-11T09:52:49+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0119s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-05-11T09:52:49+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002734s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0085s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 3 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 4 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2015-05-11T09:52:50+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0112s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-05-11T09:52:51+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002487s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0237s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2015-05-11T09:52:51+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0091s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-05-11T09:52:54+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `wechat_car_car_category` [ RunTime:0.0111s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='0' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='1' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='2' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='3' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='4' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_car_category` SET `order`='5' WHERE `id` = 7 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-05-11T09:53:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003584s ]
+
+[ 2015-05-11T09:53:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002998s ]
+
+[ 2015-05-11T10:08:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002313s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+
+[ 2015-05-11T10:10:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+
+[ 2015-05-11T10:38:35+08:00 ] ::1 /test/onethink/Member/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002426s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002817s ]
+
+[ 2015-05-11T10:38:38+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002730s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0131s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='name',`value`='carr5' WHERE `action` = 'index' AND `option` = 'name' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='sale_cate0',`value`='售前客服' WHERE `action` = 'index' AND `option` = 'sale_cate0' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='sale_cate1',`value`='售后客服' WHERE `action` = 'index' AND `option` = 'sale_cate1' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='banner_path',`value`='./Public/static/upload/5546ecc4d0c43.jpg;./Public/static/upload/554732905557a.jpg;./Public/static/upload/554738ba4890e.jpg;./Public/static/upload/554c79b7dba0f.jpg' WHERE `action` = 'index' AND `option` = 'banner_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='logo_path',`value`='./Public/static/upload/553df166737f8.png' WHERE `action` = 'index' AND `option` = 'logo_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='cate_img_path',`value`='./Public/static/upload/5550162b75736.jpg' WHERE `action` = 'index' AND `option` = 'cate_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='owner_img_path',`value`='./Public/static/upload/55470d8c15f1d.png' WHERE `action` = 'index' AND `option` = 'owner_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_keyword',`value`='汽车' WHERE `action` = 'index' AND `option` = 'reply_keyword' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='pattern_method',`value`='0' WHERE `action` = 'index' AND `option` = 'pattern_method' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_title',`value`='汽车' WHERE `action` = 'index' AND `option` = 'reply_title' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_img_path',`value`='./Public/static/upload/554b125519573.jpg' WHERE `action` = 'index' AND `option` = 'reply_img_path' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-05-11T10:38:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002544s ]
+
+[ 2015-05-11T10:39:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001935s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+
+[ 2015-05-11T10:40:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/edit/ProId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001934s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+
+[ 2015-05-11T10:40:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001985s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+
+[ 2015-05-11T12:51:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003097s ]
+
+[ 2015-05-11T12:51:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002491s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003047s ]
+
+[ 2015-05-11T12:51:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002661s ]
+
+[ 2015-05-11T12:51:13+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+
+[ 2015-05-11T12:51:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+
+[ 2015-05-11T12:51:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002494s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002948s ]
+
+[ 2015-05-11T12:51:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002750s ]
+
+[ 2015-05-11T12:54:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002669s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003124s ]
+
+[ 2015-05-11T14:32:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002656s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003106s ]
+
+[ 2015-05-11T14:32:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002668s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003172s ]
+
+[ 2015-05-11T14:32:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002495s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-05-11T14:33:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002547s ]
+
+[ 2015-05-11T14:33:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003929s ]
+
+[ 2015-05-11T14:33:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/440.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002869s ]
+
+[ 2015-05-11T14:34:06+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002769s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003265s ]
+
+[ 2015-05-11T14:34:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002499s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+
+[ 2015-05-11T14:34:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/440.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002316s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002836s ]
+
+[ 2015-05-11T14:34:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+
+[ 2015-05-11T14:34:52+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002418s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002877s ]
+
+[ 2015-05-11T14:34:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003885s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004881s ]
+
+[ 2015-05-11T14:35:02+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001862s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002516s ]
+
+[ 2015-05-11T14:35:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+
+[ 2015-05-11T14:35:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004693s ]
+
+[ 2015-05-11T14:35:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/444.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003664s ]
+
+[ 2015-05-11T14:35:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002420s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+
+[ 2015-05-11T14:35:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002609s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003132s ]
+
+[ 2015-05-11T14:35:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004082s ]
+
+[ 2015-05-11T14:35:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002478s ]
+
+[ 2015-05-11T14:35:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+
+[ 2015-05-11T14:35:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001588s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001944s ]
+
+[ 2015-05-11T14:36:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/444.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+
+[ 2015-05-11T14:36:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002612s ]
+
+[ 2015-05-11T14:36:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/494.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001939s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002342s ]
+
+[ 2015-05-11T14:36:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001639s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+
+[ 2015-05-11T14:40:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/444.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002663s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003342s ]
+
+[ 2015-05-11T14:41:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002578s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003204s ]
+
+[ 2015-05-11T15:09:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002658s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003101s ]
+
+[ 2015-05-11T15:09:53+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002803s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003406s ]
+
+[ 2015-05-11T15:09:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002798s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003313s ]
+
+[ 2015-05-11T15:10:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003150s ]
+
+[ 2015-05-11T15:10:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002444s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002936s ]
+
+[ 2015-05-11T15:10:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002688s ]
+
+[ 2015-05-11T15:10:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002457s ]
+
+[ 2015-05-11T15:22:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002693s ]
+
+[ 2015-05-11T15:23:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003843s ]
+
+[ 2015-05-11T15:24:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003180s ]
+
+[ 2015-05-11T15:24:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003686s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004270s ]
+
+[ 2015-05-11T15:25:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002952s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003488s ]
+
+[ 2015-05-11T15:27:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002615s ]
+
+[ 2015-05-11T15:27:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002973s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003569s ]
+
+[ 2015-05-11T15:44:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002422s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003039s ]
+
+[ 2015-05-11T15:54:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002933s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003498s ]
+
+[ 2015-05-11T15:54:13+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=3&Status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002661s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `wechat_car_plugin` [ RunTime:0.0246s ]
+SQL: UPDATE `wechat_car_plugin` SET `status`='1' WHERE `id` = 3 [ RunTime:0.1460s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-05-11T17:24:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002358s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+
+[ 2015-05-11T17:24:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002648s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003107s ]
+

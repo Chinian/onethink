@@ -1,0 +1,54 @@
+<include file="Default/Businesscard/header" />
+		<script type="text/javascript">
+			$(function(){
+					$('#businesscard_skin_4').width($('#businesscard_skin_4').width()).height($(window).height());
+					businesscard_obj.dragBg();
+					});
+				</script>
+
+				<div id="businesscard_skin_4">
+					<!-- 背景 start -->
+					<ul id="ul1">
+						<li><img src="{$data.imgpath}"/></li>
+					</ul>
+					<!-- 背景 end -->
+					<audio id="mc" src="{$data.bgm}" autoplay></audio>
+					<div id="music"><img src="__PUBLIC__/Businesscard/images/on.png" /></div>
+					<div class="box1">
+						<div class="box1_item1">
+							<div class="info_item">
+								<span>{$data.name}</span>
+								<span>{$data.posts}</span><br>
+								<span>{$data.company}</span>
+							</div>
+
+							<div class="number_item1">
+								<span class="icon1"></span>
+								<span class="phone"><a href="tel:{$data.mobile}">{$data.mobile}</a></span>
+								<if condition ="$data['email']">
+								<span class="icon2"></span>
+								<span class="phone1">{$data.email}</span>
+								</if>
+							</div>
+							<div class="footer">
+								<if condition="$data['isweb'] eq 1">
+								<div class="f_icon"><a href="../web/"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_4/f1.png" /></a></div>
+								</if>
+								<div class="f_icon"><a href="http://api.map.baidu.com/marker?location={$data.loc}&title={$data.company|urlencode}&name={$data.company|urlencode}&content={$data.add|urlencode}&output=html'"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_4/f2.png" /></a></div>
+								<div class="f_icon"><a href="#share"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_4/f3.png" /></a></div>
+								<div class="f_icon"><a href="tel:{$data.mobile}"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_4/f4.png" /></a></div>
+								<div class="f_icon"><span class="show_code"><img src="__PUBLIC__/Businesscard/images/businesscard/skin_4/code.png" /></span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="hidcode"><img src="{$data.codeimgpath}" /><div class="close_btn">关闭</div></div>
+				<script language="javascript">
+					window.PG.share={
+						title:'{$data.name}的微名片',
+						desc:'{$data.name}',
+						img_url:'{$data.imgpath}'
+					}
+				</script>
+			</body>
+		</html>

@@ -1,0 +1,66 @@
+<include file="head"/>
+<script src="__PUBLIC__/Member/js/member.js"></script>
+<div class="r_nav">
+	<ul>
+		<li class=""><a href="{:U('wedding/index')}">信息管理</a></li>
+		<li class=""><a href="{:U('wedding/index')}">信息推荐</a></li>
+		<li class="cur"><a href="{:U('wedding/catview')}">栏目编辑</a></li>
+	</ul>
+</div>
+<div id="reserve" class="r_con_wrap">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.css" />
+<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.js"></script>
+<script language="javascript">$(document).ready(app_hotels_obj.reserve_list_init);</script>
+
+<div class="control_btn"><a href="{:U('wedding/catedit')}" class="btn_ok btn_ok_w_120">添加栏目</a></div>
+	<form class="r_con_search_form" id="search_form" method="get" action="http://weixin.jucheng01.com/member/?">
+		关键词：<input name="Keyword" value="" class="form_input" size="15" type="text">
+		时间：<input class="form_input" name="Time" value="" maxlength="20" type="text">
+		<input class="search_btn" value="搜索" type="submit">
+		<input class="search_btn" value="导出" type="button">
+		<input name="m" value="app_hotels" type="hidden">
+		<input name="a" value="reserve" type="hidden">
+		<input name="d" value="list" type="hidden">
+	</form>
+	<table class="r_con_table" border="0" cellpadding="5" cellspacing="0">
+		<thead>
+			<tr>
+				<th nowrap="nowrap" width="5%">ID</th>
+				<th nowrap="nowrap" width="70%"></th>
+				<th class="last" width="15%">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="data.list" id="val">
+			<tr>
+				<td nowrap="nowrap">{$val.id}</td>
+				<td nowrap="nowrap" style="text-align: left">├{$val.title}</td>
+				<td nowrap="nowrap">
+					<a href="{:U('wedding/catedit', array('id' => $val['id']))}" title="查看"><img src="__PUBLIC__/Member/images/view.gif"/></a>
+					<a href="{:U('wedding/del', array('catid' => $val['id']))}" title="删除" onclick="if(!confirm('删除后不可恢复，继续吗？')){return false};"><img src="__PUBLIC__/Member/images/del.gif"/></a>
+
+
+					</td>
+			</tr>
+				<volist name="val.child" id="v">
+			<tr>
+				<td nowrap="nowrap">{$v.id}</td>
+				<td nowrap="nowrap" style="text-align: left">｜└{$v.title}</td>
+				<td nowrap="nowrap">
+					<a href="{:U('wedding/catedit', array('id' => $v['id']))}" title="查看"><img src="__PUBLIC__/Member/images/view.gif"/></a>
+					<a href="{:U('wedding/del', array('catid' => $v['id']))}" title="删除" onclick="if(!confirm('删除后不可恢复，继续吗？')){return false};"><img src="__PUBLIC__/Member/images/del.gif"/></a>
+					</td>
+			</tr>
+				</volist>
+			</volist>
+		</tbody>
+	</table>
+	<div class="blank20"></div>
+	<div id="turn_page"><font class="page_noclick">&lt;&lt;上一页</font>&nbsp;<font class="page_item_current">1</font>&nbsp;<font class="page_noclick">下一页&gt;&gt;</font></div>
+	</div>	</div>
+</div>
+<include file="moment"/>
+</body>
+</html>

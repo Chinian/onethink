@@ -1,0 +1,58 @@
+<extend name="base_template" />
+
+<block name="header">
+<link href='__PUBLIC__/static/plugin/daterangepicker/daterangepicker.css' rel='stylesheet' type='text/css'  />
+<script type='text/javascript' src='__PUBLIC__/static/plugin/daterangepicker/moment.min.js' ></script>
+<script type='text/javascript' src='__PUBLIC__/static/plugin/daterangepicker/daterangepicker.js' ></script>
+<script type='text/javascript'>$(document).ready(app_car_obj.reserve_list_init);</script>
+</block>
+
+<block name="main">
+<div class="control_btn"><a href="{:U('Car/reserve', array('d' => 'config'))}" class="btn_ok btn_ok_w_120">预约设置</a></div>
+
+<form class="r_con_search_form" id="search_form" method="get" action="?">
+	<input type="hidden" name="m" value="Member"/>
+	<input type="hidden" name="c" value="Car"/>
+	<input type="hidden" name="a" value="reserve"/>
+	<input type="hidden" name="d" value="search"/>
+
+	关键词：<input type="text" name="Keyword" value="" class="form_input" size="15" />
+	时间：<input type="text" class="form_input" name="Time" value="" maxlength="20" />
+	<input type="submit" class="search_btn" value="搜索" />
+	<input type="button" class="search_btn" value="导出" />
+</form>
+<table border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+	<thead>
+		<tr>
+			<td width="6%" nowrap="nowrap">序号</td>
+			<td width="15%" nowrap="nowrap">联系人</td>
+			<td width="15%" nowrap="nowrap">联系手机</td>
+			<td width="15%" nowrap="nowrap">预约时间</td>
+			<td width="12%">车系</td>
+			<td width="12%">车型</td>
+			<td width="15%" nowrap="nowrap">提交时间</td>
+			<td width="10%" class="last">操作</td>
+		</tr>
+	</thead>
+	<tbody> 
+		<volist name="res" id="v">
+		<tr>
+			<td nowrap="nowrap">{$v.id}</td>
+			<td>{$v.name}</td>
+			<td>{$v.tel}</td>
+			<td>{$v.reserve_time|date="Y-m-d H:i:s",###}</td>
+			<td>{$v.car_cate}</td>
+			<td>{$v.car_product}</td>
+			<td nowrap="nowrap">{$v.input_time|date="Y-m-d H:i:s",###}</td>
+			<td nowrap="nowrap" class="last">
+				<a href="{:U('Car/reserve', array('d' => 'detail', 'LId' => $v['id']))}" LId="{$v.id}"><img src="__PUBLIC__/Member/images/view.gif" align="absmiddle" alt="预约查看" /></a>
+				<a class="reserve-del" data-url="{:U('Car/delReserve')}" data-id="{$v.id}"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" alt="删除" /></a>
+			</td>
+		</tr>
+		</volist>
+
+	</tbody>
+</table>
+<div class="blank20"></div>
+<div id="turn_page">{$page}</div>
+</block>

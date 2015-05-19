@@ -1,0 +1,35 @@
+<extend name="base_template" />
+
+<block name="main">
+<div id="banner_box" class="box_swipe">
+	<ul>
+		<foreach name="config.index.banner_path" item="v" key="k" >
+		<li><img src="{$v}" alt="{$k + 1}" style="width:100%;" /></li>
+		</foreach>
+
+	</ul>
+	<ol>
+		<foreach name="config.index.banner_path" item="v" key="k" >
+		<if condition="$k eq 0">
+		<li class="on"></li>
+		<else/>
+		<li></li>
+		</if>
+		</foreach>
+	</ol>
+</div>
+<script type="text/javascript">app_car_obj.app_car_banner_swipe_init();</script>
+<nav>
+<div class="nav_list"><a href="{:U('Car/product')}">车型</a></div>
+<volist name="list" id="v">
+<div class="nav_list"><a href="{:U('Car/news', array('cid' => $v['id']))}">{$v.name}</a></div>
+</volist>
+<div class="nav_list"><a href="{:U('Car/reserve')}">{$config.reserve.rename_title}</a></div>
+
+<div class="nav_list"><a href="{:U('Car/owner')}">车主关怀</a></div>
+<div class="nav_list"><a href="{:U('Car/about')}">关于我们</a></div>
+<div class="nav_list"><a href="{:U('Car/tools')}">实用小工具</a></div>
+<div class="nav_list"><a href="{:U('Car/contact')}">联系销售</a></div>
+<div style="height:35px;"></div>
+</nav>
+</block>

@@ -1,0 +1,1885 @@
+[ 2015-05-18T08:58:03+08:00 ] ::1 /test/onethink/member.php?s=/Car/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.020456s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024858s ]
+
+[ 2015-05-18T08:58:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002331s ]
+
+[ 2015-05-18T08:58:08+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+
+[ 2015-05-18T09:04:46+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+
+[ 2015-05-18T09:12:01+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002384s ]
+
+[ 2015-05-18T09:45:40+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001862s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+
+[ 2015-05-18T10:01:29+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001875s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002268s ]
+
+[ 2015-05-18T10:35:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+
+[ 2015-05-18T10:35:20+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0282s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-05-18T10:36:16+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+
+[ 2015-05-18T10:36:31+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0237s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-05-18T10:47:36+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0242s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-05-18T10:57:41+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002520s ]
+
+[ 2015-05-18T10:57:51+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2015-05-18T10:57:55+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001724s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-05-18T10:57:55+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0093s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-05-18T10:57:55+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0097s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-05-18T10:57:56+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001342s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0129s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-05-18T10:57:56+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001573s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0102s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-05-18T10:57:57+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0129s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2015-05-18T10:58:03+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001388s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0250s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2015-05-18T10:58:05+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001608s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0130s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-05-18T10:58:05+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001593s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0092s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-05-18T10:58:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001542s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0126s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-05-18T10:58:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001577s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0101s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-05-18T10:58:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001360s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0098s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-05-18T10:58:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001895s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0136s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0106s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-05-18T10:58:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0096s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-05-18T10:58:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001361s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0129s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-05-18T10:59:31+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001905s ]
+
+[ 2015-05-18T10:59:42+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001887s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+
+[ 2015-05-18T11:00:00+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-05-18T11:00:04+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001414s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-05-18T11:00:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001571s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0126s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2015-05-18T11:00:20+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001852s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0128s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-05-18T11:05:10+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0399s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2015-05-18T11:05:16+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0281s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-05-18T11:25:49+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001943s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+
+[ 2015-05-18T11:26:53+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002871s ]
+
+[ 2015-05-18T11:28:05+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001886s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002285s ]
+
+[ 2015-05-18T11:28:34+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-05-18T11:35:32+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+
+[ 2015-05-18T11:35:48+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001975s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-05-18T11:37:23+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001808s ]
+
+[ 2015-05-18T11:37:40+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001999s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 498 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 504 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-05-18T11:41:09+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002296s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: inputId D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 502 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 502 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-05-18T11:44:32+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002368s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0210s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 503 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-05-18T11:44:37+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0259s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 503 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-05-18T11:45:04+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001645s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-05-18T11:49:49+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002204s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002693s ]
+
+[ 2015-05-18T11:50:11+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0091s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2015-05-18T11:50:17+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001647s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0082s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2015-05-18T11:52:08+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001520s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+
+[ 2015-05-18T11:52:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001923s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0089s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-05-18T11:52:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001476s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+
+[ 2015-05-18T11:52:16+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002648s ]
+
+[ 2015-05-18T11:52:25+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0090s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2015-05-18T11:52:58+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001453s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0095s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2015-05-18T13:21:54+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0131s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本4' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-05-18T13:21:59+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001663s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+
+[ 2015-05-18T13:27:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.1095s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0089s ]
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 504 行.
+NOTIC: [8] Uninitialized string offset: 1 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 504 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='',`placeholder`='请输入文本' WHERE `id` = 1 [ RunTime:0.0095s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='west263',`type`='',`placeholder`='11234' WHERE `id` = 2 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-05-18T13:28:24+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001631s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0097s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本4' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-05-18T13:29:08+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001530s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0095s ]
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 504 行.
+NOTIC: [8] Uninitialized string offset: 1 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 504 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='',`placeholder`='请输入文本' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='west263',`type`='',`placeholder`='11234' WHERE `id` = 2 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-05-18T13:30:24+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001842s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0094s ]
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 505 行.
+NOTIC: [8] Uninitialized string offset: 1 D:\xampp\htdocs\test\onethink\Application\Member\Controller\CarController.class.php 第 505 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='',`placeholder`='请输入文本' WHERE `id` = 1 [ RunTime:0.0004s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='west263',`type`='',`placeholder`='11234' WHERE `id` = 2 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-05-18T13:32:49+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002449s ]
+
+[ 2015-05-18T13:32:54+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+
+[ 2015-05-18T13:34:00+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+
+[ 2015-05-18T13:34:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002219s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0246s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0100s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本6' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-05-18T13:34:08+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+
+[ 2015-05-18T13:34:40+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001898s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0090s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本6' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: INSERT INTO `wechat_car_reserve_config` (`id`,`name`,`type`,`placeholder`) VALUES ('0','沃尔沃而','text','撒旦发广泛的时光') [ RunTime:0.0198s ]
+SQL: INSERT INTO `wechat_car_reserve_config` (`id`,`name`,`type`,`placeholder`) VALUES ('0','而语句','text','4条热土') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wechat_car_reserve_config` (`id`,`name`,`type`,`placeholder`) VALUES ('0','儿童撒旦发','select','瓦尔特|返回|键|韩国') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wechat_car_reserve_config` (`id`,`name`,`type`,`placeholder`) VALUES ('0','啊方式的','text','广泛的风格') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-05-18T13:34:52+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+
+[ 2015-05-18T13:41:50+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+
+[ 2015-05-18T13:44:27+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002524s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002921s ]
+
+[ 2015-05-18T13:52:10+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001860s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+
+[ 2015-05-18T13:54:50+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+
+[ 2015-05-18T14:01:34+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0087s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本6' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='3',`name`='沃尔沃而',`type`='text',`placeholder`='撒旦发广泛的时光' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='4',`name`='而语句',`type`='text',`placeholder`='4条热土' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='5',`name`='儿童撒旦发',`type`='select',`placeholder`='瓦尔特|返回|键|韩国' WHERE `id` = 5 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='6',`name`='啊方式的',`type`='text',`placeholder`='广泛的风格' WHERE `id` = 6 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2015-05-18T14:03:17+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001513s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0125s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0088s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本6' WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='3',`name`='沃尔沃而',`type`='text',`placeholder`='撒旦发广泛的时光' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='4',`name`='而语句',`type`='text',`placeholder`='4条热土' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='5',`name`='儿童撒旦发',`type`='select',`placeholder`='瓦尔特|返回|键|韩国' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='6',`name`='啊方式的',`type`='text',`placeholder`='广泛的风格' WHERE `id` = 6 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-05-18T14:05:22+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001957s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+
+[ 2015-05-18T14:09:57+08:00 ] ::1 /test/onethink/member.php?s=/Car/editReserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001890s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `wechat_car_reserve_config` [ RunTime:0.0099s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约试驾啊' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='广州市海珠区新港东路2438号新会展中心乙烯' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='./Public/static/upload/555562b457473.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='020-8413235' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='时刻保养你的爱车452' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `value`='39.920641,116.391481' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='1',`name`='新增文本框',`type`='text',`placeholder`='请输入文本6' WHERE `id` = 1 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='2',`name`='新增下拉框',`type`='select',`placeholder`='选项1|选项2|选项3|选项4' WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='3',`name`='沃尔沃而',`type`='text',`placeholder`='撒旦发广泛的时光' WHERE `id` = 3 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='4',`name`='而语句',`type`='text',`placeholder`='4条热土' WHERE `id` = 4 [ RunTime:0.0002s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='5',`name`='儿童撒旦发',`type`='select',`placeholder`='瓦尔特|返回|键|韩国' WHERE `id` = 5 [ RunTime:0.0001s ]
+SQL: UPDATE `wechat_car_reserve_config` SET `id`='6',`name`='啊方式的',`type`='text',`placeholder`='广泛的风格' WHERE `id` = 6 [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-05-18T14:13:27+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002550s ]
+
+[ 2015-05-18T14:13:41+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001867s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+
+[ 2015-05-18T14:28:17+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001433s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+
+[ 2015-05-18T16:09:10+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003344s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004121s ]
+
+[ 2015-05-18T16:09:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001936s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+
+[ 2015-05-18T16:37:22+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002549s ]
+
+[ 2015-05-18T16:38:19+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001659s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+
+[ 2015-05-18T16:39:28+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003750s ]
+
+[ 2015-05-18T16:40:34+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002491s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002981s ]
+
+[ 2015-05-18T16:41:07+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001931s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002330s ]
+
+[ 2015-05-18T16:41:29+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001829s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002207s ]
+
+[ 2015-05-18T16:42:33+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001446s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001791s ]
+
+[ 2015-05-18T16:42:40+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001789s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+
+[ 2015-05-18T16:44:05+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001914s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002297s ]
+
+[ 2015-05-18T16:44:32+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002763s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003184s ]
+
+[ 2015-05-18T16:51:07+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+
+[ 2015-05-18T16:51:22+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001904s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002283s ]
+
+[ 2015-05-18T16:52:30+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+
+[ 2015-05-18T16:53:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002816s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003344s ]
+
+[ 2015-05-18T16:53:13+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001973s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002445s ]
+
+[ 2015-05-18T16:53:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+
+[ 2015-05-18T16:53:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002629s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003433s ]
+
+[ 2015-05-18T16:53:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001914s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+
+[ 2015-05-18T16:53:14+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002558s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+
+[ 2015-05-18T16:53:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002515s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003323s ]
+
+[ 2015-05-18T16:53:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002594s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
+
+[ 2015-05-18T16:53:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002753s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003466s ]
+
+[ 2015-05-18T16:53:15+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002567s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003280s ]
+
+[ 2015-05-18T16:53:16+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001530s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+
+[ 2015-05-18T16:53:16+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003154s ]
+
+[ 2015-05-18T16:53:48+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001554s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+
+[ 2015-05-18T16:54:37+08:00 ] ::1 /test/onethink/member.php?s=/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001455s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+
+[ 2015-05-18T16:57:53+08:00 ] ::1 /test/onethink/member.php?s=/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+
+[ 2015-05-18T16:57:54+08:00 ] ::1 /test/onethink/member.php?s=/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001954s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+
+[ 2015-05-18T16:57:55+08:00 ] ::1 /test/onethink/member.php?s=/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002382s ]
+
+[ 2015-05-18T16:57:58+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003218s ]
+
+[ 2015-05-18T16:58:02+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001858s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-05-18T16:58:04+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001835s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+
+[ 2015-05-18T16:58:05+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/detail/LId/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002896s ]
+
+[ 2015-05-18T16:58:06+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001631s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+
+[ 2015-05-18T17:15:54+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002326s ]
+
+[ 2015-05-18T17:15:58+08:00 ] ::1 /test/onethink/member.php?s=/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001832s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002211s ]
+
+[ 2015-05-18T18:02:21+08:00 ] ::1 /test/onethink/member.php?s=/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.039309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044367s ]
+

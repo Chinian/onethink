@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"msg":"0","ret":1}

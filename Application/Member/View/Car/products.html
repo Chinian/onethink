@@ -1,0 +1,58 @@
+<extend name="base_template" />
+
+<block name="header">
+<script language="javascript">$(document).ready(app_car_obj.products_list_init);</script>
+</block>
+
+<block name="main">
+<div class="control_btn">
+	<a href="{:U('Car/category')}" class="btn_ok btn_ok_w_120">产品分类管理</a>
+	<a href="{:U('Car/products',array('id' => '0'))}" class="btn_ok btn_ok_w_120">添加产品</a>
+	<a href="#search" class="btn_ok btn_ok_w_120">产品搜索</a>
+</div>
+<form class="r_con_search_form" method="get" action="?">
+	<input type="hidden" name="m" value="Member"/>
+	<input type="hidden" name="c" value="Car"/>
+	<input type="hidden" name="a" value="products"/>
+	关键词：<input type="text" name="Keyword" value="{$keyWord}" class="form_input" size="15" />
+	产品分类：<select name='SearchCateId'>
+		<option value=''>--请选择--</option>
+		<volist name="cates" id="c"  >
+		<option value='{$c.id}' <if condition="$c['id'] eq $searchCateId">selected="selected"</if> >├{$c.name}</option>
+		</volist>
+	</select>
+	<input type="submit" class="search_btn" value="搜索" />
+
+
+
+
+</form>
+<table width="100%" align="center" border="0" cellpadding="5" cellspacing="0" class="r_con_table">
+	<thead>
+		<tr>
+			<td width="8%" nowrap="nowrap">序号</td>
+			<td width="30%" nowrap="nowrap">名称</td>
+			<td width="12%" nowrap="nowrap">分类</td>
+			<td width="10%" nowrap="nowrap">时间</td>
+			<td width="10%" nowrap="nowrap" class="last">操作</td>
+		</tr>
+	</thead>
+	<tbody>
+		<volist name="products" id="p">
+		<tr>
+			<td nowrap="nowrap">{$p.id}</td>
+			<td>{$p.name}</td>
+			<td nowrap="nowrap">{$p.cate}</td>
+			<td nowrap="nowrap">{$p.inputtime|date="Y-m-d H:i:s",###}</td>
+			<td class="last" nowrap="nowrap">
+				<a href="{:U('Car/products', array('id' => $p['id']))}">
+					<img src="__PUBLIC__/Member/images/mod.gif" align="absmiddle" alt="修改" /></a>
+				<a class="products-del" data-url="{:U('Car/delProduct')}" data-id="{$p.id}"><img src="__PUBLIC__/Member/images/del.gif" align="absmiddle" alt="删除" /></a>
+			</td>
+		</tr>
+		</volist>
+	</tbody>
+</table>
+<div class="blank20"></div>
+<div id="turn_page">{$page}</div>
+</block>

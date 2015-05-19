@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link href='__PUBLIC__/static/css/global.css' rel='stylesheet' type='text/css'  />
+		<link href='__PUBLIC__/static/api/css/global.css' rel='stylesheet' type='text/css'  />
+		<script type='text/javascript' src='__PUBLIC__/static/js/jquery-1.7.2.min.js' ></script>
+		<script type='text/javascript' src='__PUBLIC__/static/api/js/jweixin-1.0.0.js' ></script>
+		<script type='text/javascript' src='__PUBLIC__/static/api/js/global.js' ></script>
+		<script type="text/javascript">
+			window.PG={
+page:["33d3974ab3","app_car","index"],
+     subscribe:0,
+     openid:'',
+     fansid:0,
+     userid:0,
+     cover:'',
+     url_pre:'__MODULE__/',
+     url_pre_module:'__ACTION__/',
+     member_id:'16',
+     js_sdk:{"appId":"wx295ea8b654156132","nonceStr":"ac53d04916c734d4","timestamp":1430708704 ,"signature":"005fac4af69157014c49b9a77ccb0277cc84fccf"}}
+     $(document).ready(function(){global_obj.page_init()});
+</script>
+	</head>
+
+	<body>
+	<link href='__PUBLIC__/Car/css/app_car.css' rel='stylesheet' type='text/css'  />
+	<script type='text/javascript' src='__PUBLIC__/static/plugin/swipe/swipe.js' ></script>
+	<script type='text/javascript' src='__PUBLIC__/Car/js/app_car.js' ></script>
+		<script type="text/javascript">app_car_obj.app_car_tab();</script>
+		<div id="warpper" class="bg1 pbtop40">
+			<div class="contact_title">
+				<div class="ct1 ct_title">售前客服</div>
+				<div class="ct2 ct_title">售后客服</div>
+
+				<div class="clean"></div>
+			</div>
+
+			<div class="contact_content" >
+				<volist name="sales" id="v">
+				<if condition="$v['type'] eq 1">
+				<div class="content_list" >
+					<div class="server_img"><img src="{$v.imgpath}" /></div>
+					<div class="server_info">
+						<span>{$v.name}</span>
+						<a href="tel:{$v.tel}">{$v.tel}</a>
+						<span>{$v.des}</span>
+					</div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				</volist>
+			</div>
+
+			<div class="contact_content" style="display:none;">
+				<volist name="sales" id="v">
+				<if condition="$v['type'] eq 2">
+				<div class="content_list" >
+					<div class="server_img"><img src="{$v.imgpath}" /></div>
+					<div class="server_info">
+						<span>{$v.name}</span>
+						<a href="tel:{$v.tel}">{$v.tel}</a>
+						<span>{$v.des}</span>
+					</div>
+					<div class="clear"></div>
+				</div>
+				</if>
+				</volist>
+			</div>
+		</div>
+	<div id="footer" class="plug-menu bgcolor"><span class="close"></span></div>
+	<ul class="footer_list">
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon1.png" /></span>
+		<span class="i_name"><a href="{:U('Car/contact')}/">联系我们</a></span>
+		</li>
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon2.png" /></span>
+		<span class="i_name"><a href="{:U('Car/about')}/">关于我们</a></span>
+		</li>
+		<li>
+		<span class="i_icon"><img src="__PUBLIC__/Car/images/app_car/icon3.png" /></span>
+		<span class="i_name"><a href="{:U('Car/index')}">微站首页</a></span>
+		</li>    
+	</ul>
+	<div id="mask"></div>
+	<script type="text/javascript">app_car_obj.app_car_footer_init();</script><script language="javascript">
+		window.PG.share={
+			title:'{$config.reply_title}',
+			desc:'{$config.reply_title}',
+			img_url:'{$config.logo_path}'
+		}
+	</script>
+</body>
+</html>
+

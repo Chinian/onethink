@@ -1,0 +1,72 @@
+<include file="head"/>
+<script src="__PUBLIC__/Member/js/member.js"></script>
+<div class="r_nav">
+	<ul>
+		<li class="cur"><a href="{:U('wedding/index')}">信息管理</a></li>
+		<li class=""><a href="{:U('wedding/index')}">信息推荐</a></li>
+		<li class=""><a href="{:U('wedding/catview')}">栏目编辑</a></li>
+	</ul>
+</div>
+<div id="reserve" class="r_con_wrap">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.css" />
+<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/static/plugin/daterangepicker/daterangepicker.js"></script>
+<script language="javascript">$(document).ready(app_hotels_obj.reserve_list_init);</script>
+
+	<div class="control_btn"><a href="http://weixin.jucheng01.com/member/?m=app_hotels&amp;a=reserve&amp;d=edit" class="btn_ok btn_ok_w_120">预订设置</a></div>
+	<form class="r_con_search_form" id="search_form" method="get" action="http://weixin.jucheng01.com/member/?">
+		关键词：<input name="Keyword" value="" class="form_input" size="15" type="text">
+		时间：<input class="form_input" name="Time" value="" maxlength="20" type="text">
+		<input class="search_btn" value="搜索" type="submit">
+		<input class="search_btn" value="导出" type="button">
+		<input name="m" value="app_hotels" type="hidden">
+		<input name="a" value="reserve" type="hidden">
+		<input name="d" value="list" type="hidden">
+	</form>
+	<table class="r_con_table" border="0" cellpadding="5" cellspacing="0">
+		<thead>
+			<tr>
+				<td nowrap="nowrap" width="8%">ID</td>
+				<td nowrap="nowrap" width="10%">分类</td>
+				<td nowrap="nowrap" width="24%">主题</td>
+				<td nowrap="nowrap" width="12%">发布时间</td>
+				<td nowrap="nowrap" width="12%">过期时间</td>
+				<td nowrap="nowrap" width="12%">地区</td>
+				<td nowrap="nowrap" width="10%">图片数量</td>
+				<td nowrap="nowrap" width="10%">审核状态</td>
+				<td class="last" width="14%">操作</td>
+			</tr>
+		</thead>
+		<tbody>
+		<volist name="data.list" id="val">
+			<tr>
+				<td nowrap="nowrap">{$val.id}</td>
+				<td nowrap="nowrap">{$val.category}</td>
+				<td nowrap="nowrap">{$val.title}</td>
+				<td nowrap="nowrap">{$val.inputtime|date="Y-m-d H:m:s",###}</td>
+				<td nowrap="nowrap">{$val.expirytime|date="Y-m-d H:m:s",###}</td>
+				<td nowrap="nowrap">{$val.region}</td>
+				<td nowrap="nowrap">{$val.pic}</td>
+				<td nowrap="nowrap">
+				<input type="checkbox" <if condition="$val.status ">checked="checked"</if> data-id="{$val.id}" data-toggle="switch" id="custom-switch-03" onchange="checkinfo(this)"/>
+				</td>
+				<td class="last" nowrap="nowrap">
+				<a href="{:U('wedding/infoview', array('id' => $val['id']))}" title="查看">
+				<img src="__PUBLIC__/Member/images/view.gif"/>
+				</a>
+				<a href="{:U('wedding/del', array('infid' => $val['id']))}" title="删除" onclick="if(!confirm('删除后不可恢复，继续吗？')){return false};">
+				<img src="__PUBLIC__/Member/images/del.gif"/>
+				</a>
+				</td>
+			</tr>
+ 		</volist>
+		</tbody>
+	</table>
+	<div class="blank20"></div>
+	<div id="turn_page"><font class="page_noclick">&lt;&lt;上一页</font>&nbsp;<font class="page_item_current">1</font>&nbsp;<font class="page_noclick">下一页&gt;&gt;</font></div>
+	</div>	</div>
+</div>
+<include file="moment"/>
+</body>
+</html>

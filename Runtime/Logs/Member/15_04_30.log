@@ -1,0 +1,371 @@
+[ 2015-04-30T09:23:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002677s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003184s ]
+
+[ 2015-04-30T09:23:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002777s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003250s ]
+
+[ 2015-04-30T09:23:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002565s ]
+
+[ 2015-04-30T09:23:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001869s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002479s ]
+
+[ 2015-04-30T09:24:29+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0079s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`loc`='39.917805,116.40637',`inputtime`='1430357069' WHERE `id` = 15 [ RunTime:0.0004s ]
+
+[ 2015-04-30T09:24:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002538s ]
+
+[ 2015-04-30T10:05:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003833s ]
+
+[ 2015-04-30T10:06:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002825s ]
+
+[ 2015-04-30T10:06:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+
+[ 2015-04-30T10:06:07+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002499s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0084s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='2',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`loc`='39.917805,116.40637',`inputtime`='1430359567' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-30T10:06:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002561s ]
+
+[ 2015-04-30T10:52:00+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002774s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003371s ]
+
+[ 2015-04-30T13:17:04+08:00 ] ::1 /test/onethink/Member/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003399s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004319s ]
+
+[ 2015-04-30T13:17:07+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002660s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0320s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='3245',`title`='345',`replybriefdes`='',`skinid`='4',`bgm`='',`company`='3245',`posts`='435',`mobile`='2345',`tel`='',`fax`='',`qq`='',`email`='',`website`='',`briefdes`='',`add`='2345.com',`customize`='',`customizeurl`='',`replyimgpath`='',`imgpath`='',`codeimgpath`='',`loc`='113.000000,22.000000',`inputtime`='1430371027' WHERE `id` = 3 [ RunTime:0.0130s ]
+
+[ 2015-04-30T13:17:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+
+[ 2015-04-30T15:54:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002450s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002841s ]
+
+[ 2015-04-30T15:55:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/del/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+
+[ 2015-04-30T15:55:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003486s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004320s ]
+
+[ 2015-04-30T15:55:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001603s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-30T15:55:13+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001666s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002064s ]
+
+[ 2015-04-30T16:21:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004464s ]
+
+[ 2015-04-30T16:22:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002684s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003133s ]
+
+[ 2015-04-30T16:22:36+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004511s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0252s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='4',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='1',`loc`='39.917805,116.40637',`inputtime`='1430382156' WHERE `id` = 15 [ RunTime:0.0008s ]
+
+[ 2015-04-30T16:22:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001843s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+
+[ 2015-04-30T16:22:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+
+[ 2015-04-30T16:22:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+
+[ 2015-04-30T16:22:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001776s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002501s ]
+
+[ 2015-04-30T16:23:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003106s ]
+
+[ 2015-04-30T16:23:45+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001834s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0186s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='4',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='0',`loc`='39.917805,116.40637',`inputtime`='1430382225' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-30T16:23:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001586s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+
+[ 2015-04-30T16:23:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/edit/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001526s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+
+[ 2015-04-30T16:24:12+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002674s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0161s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='4',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='1',`loc`='39.917805,116.40637',`inputtime`='1430382252' WHERE `id` = 15 [ RunTime:0.0004s ]
+
+[ 2015-04-30T16:24:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002535s ]
+
+[ 2015-04-30T16:24:21+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002470s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0197s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='4',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='0',`loc`='39.917805,116.40637',`inputtime`='1430382261' WHERE `id` = 15 [ RunTime:0.0004s ]
+
+[ 2015-04-30T16:24:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002380s ]
+
+[ 2015-04-30T16:36:36+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0186s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='6',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='0',`loc`='39.917805,116.40637',`inputtime`='1430382996' WHERE `id` = 15 [ RunTime:0.0005s ]
+
+[ 2015-04-30T16:36:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002455s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002932s ]
+
+[ 2015-04-30T16:36:56+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0193s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='0',`loc`='39.917805,116.40637',`inputtime`='1430383016' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-30T16:36:56+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+
+[ 2015-04-30T16:41:39+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002664s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0092s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='0',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='1',`loc`='39.917805,116.40637',`inputtime`='1430383299' WHERE `id` = 15 [ RunTime:0.0005s ]
+
+[ 2015-04-30T16:41:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002711s ]
+
+[ 2015-04-30T16:43:01+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0096s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='1',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='1',`loc`='39.917805,116.40637',`inputtime`='1430383381' WHERE `id` = 15 [ RunTime:0.0005s ]
+
+[ 2015-04-30T16:43:01+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+
+[ 2015-04-30T16:43:10+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002501s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0238s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='1',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='0',`loc`='39.917805,116.40637',`inputtime`='1430383390' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-30T16:43:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002623s ]
+
+[ 2015-04-30T16:43:19+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002282s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `wechat_businesscard_card` [ RunTime:0.0082s ]
+SQL: UPDATE `wechat_businesscard_card` SET `name`='小明',`title`='小明的名片',`replybriefdes`='这是小明的名片',`skinid`='1',`bgm`='./Public/static/upload/553dfffd8e16b.mp3',`company`='聚成',`posts`='php',`mobile`='12345678901',`tel`='112345',`fax`='5446777',`qq`='8989789756',`email`='sdfg@artjsda.com',`website`='www.sacfoujsdfosd.co',`briefdes`='初从文,三年不中;
+后习武,校场发一矢,中鼓吏,逐之出;
+遂学医,有所成。自撰一良方,服之,卒',`add`='在这里',`customize`='233333',`customizeurl`='233.com',`replyimgpath`='./Public/static/upload/553dffe0e2d77.jpg',`imgpath`='./Public/static/upload/553e000742e7a.png',`codeimgpath`='./Public/static/upload/553dfff578209.png',`isweb`='1',`loc`='39.917805,116.40637',`inputtime`='1430383399' WHERE `id` = 15 [ RunTime:0.0003s ]
+
+[ 2015-04-30T16:43:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Businesscard/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002757s ]
+

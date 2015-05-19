@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>{"name":"b.png","type":"application/octet-stream","size":159,"key":"Filedata","ext":"png","md5":"6830f13b0217969b7f08b528d6501e7a","sha1":"52900cb422c1fe1bac0d1d1d5402c966c61a2ffc","savename":"5539e787a513b.png","savepath":""}

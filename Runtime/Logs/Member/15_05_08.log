@@ -1,0 +1,2570 @@
+[ 2015-05-08T09:11:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002646s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003465s ]
+
+[ 2015-05-08T09:11:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002416s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002871s ]
+
+[ 2015-05-08T09:11:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002858s ]
+
+[ 2015-05-08T09:11:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003934s ]
+
+[ 2015-05-08T09:18:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004068s ]
+
+[ 2015-05-08T09:18:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003641s ]
+
+[ 2015-05-08T09:20:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002589s ]
+
+[ 2015-05-08T09:27:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003782s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004452s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'car_series' in 'field list'
+
+[ 2015-05-08T09:28:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002588s ]
+
+[ 2015-05-08T09:28:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002943s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003433s ]
+
+[ 2015-05-08T09:28:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002769s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003285s ]
+
+[ 2015-05-08T09:28:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/edit/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002958s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003547s ]
+
+[ 2015-05-08T09:29:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003462s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004077s ]
+
+[ 2015-05-08T09:31:06+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003859s ]
+
+[ 2015-05-08T09:32:06+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002673s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003148s ]
+
+[ 2015-05-08T09:34:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003881s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004702s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_car_products_category' doesn't exist
+
+[ 2015-05-08T09:34:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003347s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004237s ]
+
+[ 2015-05-08T09:36:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002327s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002806s ]
+
+[ 2015-05-08T09:39:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002759s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003274s ]
+
+[ 2015-05-08T09:39:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002794s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003296s ]
+
+[ 2015-05-08T09:43:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003569s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004136s ]
+
+[ 2015-05-08T09:43:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002592s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003032s ]
+
+[ 2015-05-08T09:44:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005961s ]
+
+[ 2015-05-08T09:45:10+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003810s ]
+
+[ 2015-05-08T09:46:02+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002235s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+
+[ 2015-05-08T09:46:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004132s ]
+
+[ 2015-05-08T09:46:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002700s ]
+
+[ 2015-05-08T09:46:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001861s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002271s ]
+
+[ 2015-05-08T09:46:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001960s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002400s ]
+
+[ 2015-05-08T09:46:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002950s ]
+
+[ 2015-05-08T09:46:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001732s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+
+[ 2015-05-08T09:46:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002471s ]
+
+[ 2015-05-08T09:46:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001863s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002425s ]
+
+[ 2015-05-08T09:46:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002449s ]
+
+[ 2015-05-08T09:46:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001781s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+
+[ 2015-05-08T09:46:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002421s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003207s ]
+
+[ 2015-05-08T09:46:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001860s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+
+[ 2015-05-08T09:47:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002521s ]
+
+[ 2015-05-08T09:47:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002612s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003144s ]
+
+[ 2015-05-08T09:48:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002374s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002832s ]
+
+[ 2015-05-08T09:48:19+08:00 ] ::1 /test/onethink/Member/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001824s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+
+[ 2015-05-08T09:48:22+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0137s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\test\onethink\Application\Common\Common\function.php 第 62 行.
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='rename_title',`value`='预约试驾' WHERE `action` = 'reserve' AND `option` = 'rename_title' [ RunTime:0.0004s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='add',`value`='广州市海珠区新港东路2438号新会展中心以东' WHERE `action` = 'reserve' AND `option` = 'add' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='header_img_path',`value`='./Public/static/upload/554c15e391819.jpg' WHERE `action` = 'reserve' AND `option` = 'header_img_path' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='tel' WHERE `action` = 'reserve' AND `option` = 'tel' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='rename_tel',`value`='预约电话' WHERE `action` = 'reserve' AND `option` = 'rename_tel' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='remark',`value`='时刻保养你的爱车45' WHERE `action` = 'reserve' AND `option` = 'remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='rename_remark',`value`='' WHERE `action` = 'reserve' AND `option` = 'rename_remark' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='loc',`value`='39.918275,116.406276' WHERE `action` = 'reserve' AND `option` = 'loc' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2015-05-08T09:48:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001565s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+
+[ 2015-05-08T09:48:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001908s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+
+[ 2015-05-08T09:48:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+
+[ 2015-05-08T09:48:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002712s ]
+
+[ 2015-05-08T09:48:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001987s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002465s ]
+
+[ 2015-05-08T09:48:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+
+[ 2015-05-08T09:48:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002588s ]
+
+[ 2015-05-08T09:48:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002568s ]
+
+[ 2015-05-08T09:48:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/edit/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+
+[ 2015-05-08T09:48:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/edit/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001804s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+
+[ 2015-05-08T09:48:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/edit/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002679s ]
+
+[ 2015-05-08T09:48:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/edit/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+
+[ 2015-05-08T09:49:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002775s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003303s ]
+
+[ 2015-05-08T09:49:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002783s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003492s ]
+
+[ 2015-05-08T09:49:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002762s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003219s ]
+
+[ 2015-05-08T09:49:12+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002707s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003216s ]
+
+[ 2015-05-08T09:49:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002857s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+
+[ 2015-05-08T09:49:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002503s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002987s ]
+
+[ 2015-05-08T09:49:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002688s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003242s ]
+
+[ 2015-05-08T09:53:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003743s ]
+
+[ 2015-05-08T09:53:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002636s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003111s ]
+
+[ 2015-05-08T09:53:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002854s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003729s ]
+
+[ 2015-05-08T09:53:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002476s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+
+[ 2015-05-08T09:53:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002960s ]
+
+[ 2015-05-08T09:53:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003853s ]
+
+[ 2015-05-08T09:53:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003571s ]
+
+[ 2015-05-08T09:53:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004082s ]
+
+[ 2015-05-08T09:53:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002489s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002997s ]
+
+[ 2015-05-08T09:53:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004343s ]
+
+[ 2015-05-08T09:53:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+
+[ 2015-05-08T09:53:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002800s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003275s ]
+
+[ 2015-05-08T09:53:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002472s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002949s ]
+
+[ 2015-05-08T09:53:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002480s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002954s ]
+
+[ 2015-05-08T09:53:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002579s ]
+
+[ 2015-05-08T09:53:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+
+[ 2015-05-08T09:53:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002949s ]
+
+[ 2015-05-08T09:53:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002831s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003303s ]
+
+[ 2015-05-08T09:53:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002559s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003234s ]
+
+[ 2015-05-08T09:53:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002976s ]
+
+[ 2015-05-08T09:53:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002472s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002950s ]
+
+[ 2015-05-08T09:53:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002671s ]
+
+[ 2015-05-08T09:53:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002798s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003362s ]
+
+[ 2015-05-08T10:00:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002761s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003255s ]
+
+[ 2015-05-08T10:00:54+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001963s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002349s ]
+
+[ 2015-05-08T10:01:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002773s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003217s ]
+
+[ 2015-05-08T10:01:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002468s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003026s ]
+
+[ 2015-05-08T10:01:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003790s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+
+[ 2015-05-08T10:01:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003126s ]
+
+[ 2015-05-08T10:01:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003077s ]
+
+[ 2015-05-08T10:01:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002385s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002828s ]
+
+[ 2015-05-08T10:01:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006075s ]
+
+[ 2015-05-08T10:08:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002835s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003579s ]
+
+[ 2015-05-08T10:08:13+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002484s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+
+[ 2015-05-08T10:09:41+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003549s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004173s ]
+
+[ 2015-05-08T10:09:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002498s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002928s ]
+
+[ 2015-05-08T10:09:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002890s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003536s ]
+
+[ 2015-05-08T10:10:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005395s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006377s ]
+
+[ 2015-05-08T10:10:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003995s ]
+
+[ 2015-05-08T10:10:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002546s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003234s ]
+
+[ 2015-05-08T10:10:39+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002926s ]
+
+[ 2015-05-08T10:10:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002398s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002892s ]
+
+[ 2015-05-08T10:14:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003404s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003988s ]
+
+[ 2015-05-08T10:14:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002516s ]
+
+[ 2015-05-08T10:14:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002582s ]
+
+[ 2015-05-08T10:15:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002338s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002918s ]
+
+[ 2015-05-08T10:15:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+
+[ 2015-05-08T10:15:55+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004847s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005811s ]
+
+[ 2015-05-08T10:17:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002708s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003158s ]
+
+[ 2015-05-08T10:20:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002880s ]
+
+[ 2015-05-08T10:21:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003822s ]
+
+[ 2015-05-08T10:21:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003029s ]
+
+[ 2015-05-08T10:21:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001683s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002140s ]
+
+[ 2015-05-08T10:21:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001969s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+
+[ 2015-05-08T10:26:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003874s ]
+
+[ 2015-05-08T10:26:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001660s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002017s ]
+
+[ 2015-05-08T10:26:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001581s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+
+[ 2015-05-08T10:26:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002534s ]
+
+[ 2015-05-08T10:27:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003351s ]
+
+[ 2015-05-08T10:27:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002598s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003037s ]
+
+[ 2015-05-08T10:27:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003823s ]
+
+[ 2015-05-08T10:28:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003699s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004328s ]
+
+[ 2015-05-08T10:28:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003698s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004600s ]
+
+[ 2015-05-08T10:29:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003733s ]
+
+[ 2015-05-08T10:29:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005208s ]
+
+[ 2015-05-08T10:29:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003624s ]
+
+[ 2015-05-08T10:29:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002558s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+
+[ 2015-05-08T10:30:50+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001945s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002422s ]
+
+[ 2015-05-08T10:30:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/del/LId/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003739s ]
+
+[ 2015-05-08T10:30:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002514s ]
+
+[ 2015-05-08T10:30:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003372s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004415s ]
+
+[ 2015-05-08T10:31:44+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002561s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003323s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:32:09+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002919s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003395s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:32:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002632s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003216s ]
+
+[ 2015-05-08T10:32:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002496s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002981s ]
+
+[ 2015-05-08T10:51:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002773s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003270s ]
+
+[ 2015-05-08T10:51:33+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=products&Keyword=&SearchCateId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002516s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002959s ]
+
+[ 2015-05-08T10:52:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002766s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003305s ]
+
+[ 2015-05-08T10:52:26+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002656s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003212s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:56:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002877s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003361s ]
+
+[ 2015-05-08T10:56:11+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002890s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:56:15+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002880s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003607s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:56:19+08:00 ] ::1 /test/onethink/member.php?Keyword=&Time=&m=app_car&a=reserve&d=view&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002486s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003116s ]
+ERR: 非法操作:reserve
+
+[ 2015-05-08T10:58:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002709s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003295s ]
+
+[ 2015-05-08T10:58:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003885s ]
+
+[ 2015-05-08T10:59:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003843s ]
+
+[ 2015-05-08T10:59:47+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&Keyword=&Time=&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002366s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002886s ]
+
+[ 2015-05-08T10:59:49+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&Keyword=&Time=&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001740s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+
+[ 2015-05-08T11:00:02+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001875s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+
+[ 2015-05-08T11:00:14+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=products&Keyword=&SearchCateId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001873s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-05-08T11:00:53+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002680s ]
+
+[ 2015-05-08T11:00:54+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002944s ]
+
+[ 2015-05-08T11:02:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+
+[ 2015-05-08T11:02:24+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002702s ]
+
+[ 2015-05-08T11:02:42+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&RId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001800s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+
+[ 2015-05-08T11:02:45+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002277s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002919s ]
+
+[ 2015-05-08T11:02:45+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001998s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002551s ]
+
+[ 2015-05-08T11:06:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003873s ]
+
+[ 2015-05-08T11:06:30+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003409s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004138s ]
+
+[ 2015-05-08T11:06:37+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=2015%2F05%2F08+00%3A00%3A00+-+2015%2F05%2F13+23%3A59%3A00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002573s ]
+
+[ 2015-05-08T11:06:44+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=%E7%8E%8B&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002503s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003030s ]
+
+[ 2015-05-08T11:14:19+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002542s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002994s ]
+
+[ 2015-05-08T11:14:21+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002861s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003380s ]
+
+[ 2015-05-08T11:19:05+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002650s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003154s ]
+
+[ 2015-05-08T11:19:10+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+
+[ 2015-05-08T11:19:13+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002639s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+
+[ 2015-05-08T11:19:15+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002723s ]
+
+[ 2015-05-08T11:19:18+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002721s ]
+
+[ 2015-05-08T11:19:23+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002583s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003333s ]
+
+[ 2015-05-08T11:19:36+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002949s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003534s ]
+
+[ 2015-05-08T11:44:57+08:00 ] ::1 /test/onethink/member.php?m=Member&c=Car&a=reserve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003780s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004473s ]
+
+[ 2015-05-08T11:44:59+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002455s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003026s ]
+
+[ 2015-05-08T11:45:09+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002925s ]
+
+[ 2015-05-08T11:45:11+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001844s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+
+[ 2015-05-08T11:45:11+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+
+[ 2015-05-08T11:45:14+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002492s ]
+
+[ 2015-05-08T11:45:15+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001863s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002268s ]
+
+[ 2015-05-08T11:45:15+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001782s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002197s ]
+
+[ 2015-05-08T11:45:16+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001972s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002436s ]
+
+[ 2015-05-08T11:45:18+08:00 ] ::1 /test/onethink/?m=Member&c=Car&a=reserve&d=search&Keyword=&Time=&do_action=app_car.reserve_export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001783s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+
+[ 2015-05-08T11:59:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002807s ]
+
+[ 2015-05-08T14:11:44+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002739s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003422s ]
+
+[ 2015-05-08T14:12:12+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002626s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003135s ]
+
+[ 2015-05-08T14:12:49+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003609s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004128s ]
+
+[ 2015-05-08T14:13:28+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002484s ]
+
+[ 2015-05-08T14:13:32+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003950s ]
+
+[ 2015-05-08T14:13:33+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002598s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003152s ]
+
+[ 2015-05-08T14:15:23+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003830s ]
+
+[ 2015-05-08T14:15:24+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003283s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004224s ]
+
+[ 2015-05-08T14:16:27+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003942s ]
+
+[ 2015-05-08T14:16:29+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003741s ]
+
+[ 2015-05-08T14:16:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006244s ]
+
+[ 2015-05-08T14:16:33+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001701s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+
+[ 2015-05-08T14:19:15+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.016941s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017410s ]
+
+[ 2015-05-08T14:19:17+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002515s ]
+
+[ 2015-05-08T14:23:24+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003379s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004255s ]
+
+[ 2015-05-08T14:23:25+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003545s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004336s ]
+
+[ 2015-05-08T14:23:26+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002966s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003588s ]
+
+[ 2015-05-08T14:23:27+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004320s ]
+
+[ 2015-05-08T14:24:23+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002813s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003343s ]
+
+[ 2015-05-08T14:24:24+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003481s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004487s ]
+
+[ 2015-05-08T14:24:25+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002594s ]
+
+[ 2015-05-08T14:24:33+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002872s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003424s ]
+
+[ 2015-05-08T14:24:35+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002646s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003091s ]
+
+[ 2015-05-08T14:24:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002771s ]
+
+[ 2015-05-08T14:24:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002377s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002999s ]
+
+[ 2015-05-08T14:24:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002583s ]
+
+[ 2015-05-08T14:24:40+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002337s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002916s ]
+
+[ 2015-05-08T14:24:42+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002563s ]
+
+[ 2015-05-08T14:24:43+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+
+[ 2015-05-08T14:25:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002692s ]
+
+[ 2015-05-08T14:27:23+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003563s ]
+
+[ 2015-05-08T14:30:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002693s ]
+
+[ 2015-05-08T14:30:40+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002707s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003235s ]
+
+[ 2015-05-08T14:32:19+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002472s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+
+[ 2015-05-08T14:32:19+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002371s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002837s ]
+
+[ 2015-05-08T14:32:20+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005173s ]
+
+[ 2015-05-08T14:32:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003641s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004218s ]
+
+[ 2015-05-08T14:32:34+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002801s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003308s ]
+
+[ 2015-05-08T14:33:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003703s ]
+
+[ 2015-05-08T14:33:32+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002668s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003355s ]
+
+[ 2015-05-08T14:33:33+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002395s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002896s ]
+
+[ 2015-05-08T14:33:35+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002490s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003002s ]
+
+[ 2015-05-08T14:33:35+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002505s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003069s ]
+
+[ 2015-05-08T14:33:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002853s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003461s ]
+
+[ 2015-05-08T14:33:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003769s ]
+
+[ 2015-05-08T14:33:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003229s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003819s ]
+
+[ 2015-05-08T14:33:42+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002783s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003352s ]
+
+[ 2015-05-08T14:33:44+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004048s ]
+
+[ 2015-05-08T14:36:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002317s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002748s ]
+
+[ 2015-05-08T14:44:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002450s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002956s ]
+
+[ 2015-05-08T14:45:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002942s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003508s ]
+
+[ 2015-05-08T14:45:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003590s ]
+
+[ 2015-05-08T14:46:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003639s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004250s ]
+
+[ 2015-05-08T14:46:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002565s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003082s ]
+
+[ 2015-05-08T14:46:32+08:00 ] ::1 /test/onethink/member.php?m=app_car&a=products&do_action=app_car.products_category_order&sort_order=3%7C2%7C4%7C1%7C5%7C7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002511s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:products
+
+[ 2015-05-08T14:46:33+08:00 ] ::1 /test/onethink/member.php?m=app_car&a=products&do_action=app_car.products_category_order&sort_order=7%7C3%7C2%7C4%7C1%7C5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002327s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: 非法操作:products
+
+[ 2015-05-08T14:46:34+08:00 ] ::1 /test/onethink/member.php?m=app_car&a=products&do_action=app_car.products_category_order&sort_order=7%7C3%7C4%7C1%7C2%7C5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002947s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: 非法操作:products
+
+[ 2015-05-08T14:48:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002768s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003574s ]
+
+[ 2015-05-08T14:48:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002433s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+
+[ 2015-05-08T14:49:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002510s ]
+
+[ 2015-05-08T14:49:33+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002760s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003248s ]
+
+[ 2015-05-08T14:50:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003997s ]
+
+[ 2015-05-08T14:50:47+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002880s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003304s ]
+
+[ 2015-05-08T14:51:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002713s ]
+
+[ 2015-05-08T14:51:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003823s ]
+
+[ 2015-05-08T14:51:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002687s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003290s ]
+
+[ 2015-05-08T14:51:34+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/496.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002676s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003536s ]
+
+[ 2015-05-08T14:52:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/496.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002662s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003159s ]
+
+[ 2015-05-08T14:52:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002913s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003537s ]
+
+[ 2015-05-08T14:52:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002811s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003564s ]
+
+[ 2015-05-08T14:52:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news/d/edit/NId/496.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002635s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003387s ]
+
+[ 2015-05-08T14:53:57+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002200s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002628s ]
+
+[ 2015-05-08T14:55:49+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003550s ]
+
+[ 2015-05-08T14:56:16+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002519s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003184s ]
+
+[ 2015-05-08T14:58:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002349s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002877s ]
+
+[ 2015-05-08T14:58:46+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+
+[ 2015-05-08T14:58:48+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001885s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002334s ]
+
+[ 2015-05-08T15:01:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002916s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003522s ]
+
+[ 2015-05-08T15:01:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003554s ]
+
+[ 2015-05-08T15:03:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002541s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002934s ]
+
+[ 2015-05-08T15:05:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002852s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003313s ]
+
+[ 2015-05-08T15:05:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002814s ]
+
+[ 2015-05-08T15:05:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001851s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002281s ]
+
+[ 2015-05-08T15:05:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002383s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+
+[ 2015-05-08T15:05:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002330s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002808s ]
+
+[ 2015-05-08T15:05:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002681s ]
+
+[ 2015-05-08T15:05:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+
+[ 2015-05-08T15:05:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001686s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002104s ]
+
+[ 2015-05-08T15:05:28+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001719s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002131s ]
+
+[ 2015-05-08T15:05:31+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001985s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002510s ]
+
+[ 2015-05-08T15:05:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+
+[ 2015-05-08T15:05:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002446s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003143s ]
+
+[ 2015-05-08T15:05:35+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003053s ]
+
+[ 2015-05-08T15:05:59+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002764s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003384s ]
+
+[ 2015-05-08T15:06:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002693s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003318s ]
+
+[ 2015-05-08T15:06:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002383s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002922s ]
+
+[ 2015-05-08T15:06:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005199s ]
+
+[ 2015-05-08T15:06:52+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003981s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004747s ]
+
+[ 2015-05-08T15:07:48+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003970s ]
+
+[ 2015-05-08T15:07:49+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002376s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003048s ]
+
+[ 2015-05-08T15:08:08+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002858s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003438s ]
+
+[ 2015-05-08T15:08:26+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003651s ]
+
+[ 2015-05-08T15:08:29+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002694s ]
+
+[ 2015-05-08T15:09:44+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002619s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003321s ]
+
+[ 2015-05-08T15:09:46+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004624s ]
+
+[ 2015-05-08T15:09:51+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+
+[ 2015-05-08T15:09:52+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004585s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005465s ]
+
+[ 2015-05-08T15:10:24+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003241s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003890s ]
+
+[ 2015-05-08T15:10:24+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/reserve/d/detail/LId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003858s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004698s ]
+
+[ 2015-05-08T15:13:55+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002863s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003495s ]
+
+[ 2015-05-08T15:13:58+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/sales/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002910s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003863s ]
+
+[ 2015-05-08T15:14:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003417s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004357s ]
+
+[ 2015-05-08T15:15:08+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002583s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003157s ]
+
+[ 2015-05-08T15:17:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+
+[ 2015-05-08T15:17:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003290s ]
+
+[ 2015-05-08T15:17:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002697s ]
+
+[ 2015-05-08T15:17:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003741s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004371s ]
+
+[ 2015-05-08T15:17:40+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002825s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003492s ]
+
+[ 2015-05-08T15:20:26+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/tool.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002429s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002881s ]
+ERR: 非法操作:tool
+
+[ 2015-05-08T15:20:53+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002606s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003054s ]
+
+[ 2015-05-08T15:20:55+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002897s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003596s ]
+
+[ 2015-05-08T15:20:56+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003754s ]
+
+[ 2015-05-08T15:21:32+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003294s ]
+
+[ 2015-05-08T15:21:35+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003370s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004012s ]
+
+[ 2015-05-08T15:21:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002366s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002803s ]
+
+[ 2015-05-08T15:21:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002384s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003023s ]
+
+[ 2015-05-08T15:21:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001678s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002042s ]
+
+[ 2015-05-08T15:21:36+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002466s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002900s ]
+
+[ 2015-05-08T15:21:37+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002426s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002872s ]
+
+[ 2015-05-08T15:28:57+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003961s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004639s ]
+
+[ 2015-05-08T15:29:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+
+[ 2015-05-08T15:29:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002856s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003302s ]
+
+[ 2015-05-08T15:29:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002686s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003163s ]
+
+[ 2015-05-08T15:29:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002621s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003088s ]
+
+[ 2015-05-08T15:29:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001736s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002132s ]
+
+[ 2015-05-08T15:29:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001849s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+
+[ 2015-05-08T15:29:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002269s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002714s ]
+
+[ 2015-05-08T15:29:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002649s ]
+
+[ 2015-05-08T15:29:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001959s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+
+[ 2015-05-08T15:29:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002628s ]
+
+[ 2015-05-08T15:29:02+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002260s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002699s ]
+
+[ 2015-05-08T15:29:51+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001821s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002234s ]
+
+[ 2015-05-08T15:30:30+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004354s ]
+
+[ 2015-05-08T15:30:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003920s ]
+
+[ 2015-05-08T15:32:01+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002566s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002997s ]
+
+[ 2015-05-08T15:32:02+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003610s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004514s ]
+
+[ 2015-05-08T15:32:05+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002397s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002840s ]
+
+[ 2015-05-08T15:32:06+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002387s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002846s ]
+
+[ 2015-05-08T15:32:07+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/products/d/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002537s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003089s ]
+
+[ 2015-05-08T15:32:11+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002872s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003315s ]
+
+[ 2015-05-08T15:32:15+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002890s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003454s ]
+
+[ 2015-05-08T15:33:27+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002749s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003454s ]
+
+[ 2015-05-08T15:33:28+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004996s ]
+
+[ 2015-05-08T15:33:28+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002652s ]
+
+[ 2015-05-08T15:33:28+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002324s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002779s ]
+
+[ 2015-05-08T15:33:39+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002592s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003108s ]
+
+[ 2015-05-08T15:34:00+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002579s ]
+
+[ 2015-05-08T15:37:23+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002883s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003443s ]
+
+[ 2015-05-08T15:37:25+08:00 ] ::1 /test/onethink/index.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003679s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004798s ]
+
+[ 2015-05-08T15:39:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002760s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003210s ]
+
+[ 2015-05-08T15:39:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006235s ]
+
+[ 2015-05-08T15:39:52+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=1&Status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002852s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'onethink.wechat_car_tool' doesn't exist
+
+[ 2015-05-08T15:41:37+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002531s ]
+
+[ 2015-05-08T15:41:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002752s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+
+[ 2015-05-08T15:41:38+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002638s ]
+
+[ 2015-05-08T15:41:39+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=1&Status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002744s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `wechat_car_plugin` [ RunTime:0.0103s ]
+SQL: UPDATE `wechat_car_plugin` SET `status`='0' WHERE `id` = 1 [ RunTime:0.0622s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-05-08T15:41:40+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=1&Status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `wechat_car_plugin` [ RunTime:0.0101s ]
+SQL: UPDATE `wechat_car_plugin` SET `status`='1' WHERE `id` = 1 [ RunTime:0.0301s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-05-08T15:41:41+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=4&Status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `wechat_car_plugin` [ RunTime:0.0112s ]
+SQL: UPDATE `wechat_car_plugin` SET `status`='0' WHERE `id` = 4 [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-05-08T15:41:42+08:00 ] ::1 /test/onethink/member.php?&do_action=app_car.plugin&plugin=4&Status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `wechat_car_plugin` [ RunTime:0.0105s ]
+SQL: UPDATE `wechat_car_plugin` SET `status`='1' WHERE `id` = 4 [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2015-05-08T15:41:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002681s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003204s ]
+
+[ 2015-05-08T15:41:42+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002941s ]
+
+[ 2015-05-08T15:41:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002271s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002734s ]
+
+[ 2015-05-08T15:41:43+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002588s ]
+
+[ 2015-05-08T15:42:09+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003631s ]
+
+[ 2015-05-08T15:45:03+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002637s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+
+[ 2015-05-08T15:45:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002938s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003515s ]
+
+[ 2015-05-08T15:45:05+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003837s ]
+
+[ 2015-05-08T15:45:07+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002225s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002735s ]
+
+[ 2015-05-08T15:45:08+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002399s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002851s ]
+
+[ 2015-05-08T15:47:58+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003399s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003955s ]
+
+[ 2015-05-08T15:57:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002757s ]
+
+[ 2015-05-08T15:57:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002992s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003587s ]
+
+[ 2015-05-08T15:57:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002331s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+
+[ 2015-05-08T15:57:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002391s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002861s ]
+
+[ 2015-05-08T15:57:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002956s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003618s ]
+
+[ 2015-05-08T15:57:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002831s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003356s ]
+
+[ 2015-05-08T16:08:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004425s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005020s ]
+
+[ 2015-05-08T16:08:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002538s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003069s ]
+
+[ 2015-05-08T16:08:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001607s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002003s ]
+
+[ 2015-05-08T16:08:22+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001940s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+
+[ 2015-05-08T16:08:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002567s ]
+
+[ 2015-05-08T16:08:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001849s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+
+[ 2015-05-08T16:08:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001815s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+
+[ 2015-05-08T16:08:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001794s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+
+[ 2015-05-08T16:08:27+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002567s ]
+
+[ 2015-05-08T16:30:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002716s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003225s ]
+
+[ 2015-05-08T16:54:04+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003145s ]
+
+[ 2015-05-08T16:54:15+08:00 ] ::1 /test/onethink/Member/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003662s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004480s ]
+
+[ 2015-05-08T16:54:18+08:00 ] ::1 /test/onethink/member.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002808s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `wechat_car_config` [ RunTime:0.0329s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='name',`value`='carr5' WHERE `action` = 'index' AND `option` = 'name' [ RunTime:0.0003s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='sale_cate0',`value`='售前客服' WHERE `action` = 'index' AND `option` = 'sale_cate0' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='sale_cate1',`value`='售后客服' WHERE `action` = 'index' AND `option` = 'sale_cate1' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='banner_path',`value`='./Public/static/upload/5546ecc4d0c43.jpg;./Public/static/upload/554732905557a.jpg;./Public/static/upload/554738ba4890e.jpg;./Public/static/upload/554c79b7dba0f.jpg' WHERE `action` = 'index' AND `option` = 'banner_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='logo_path',`value`='./Public/static/upload/553df166737f8.png' WHERE `action` = 'index' AND `option` = 'logo_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='cate_img_path',`value`='./Public/static/upload/553e000742e7a.png' WHERE `action` = 'index' AND `option` = 'cate_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='owner_img_path',`value`='./Public/static/upload/55470d8c15f1d.png' WHERE `action` = 'index' AND `option` = 'owner_img_path' [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_keyword',`value`='汽车' WHERE `action` = 'index' AND `option` = 'reply_keyword' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='pattern_method',`value`='0' WHERE `action` = 'index' AND `option` = 'pattern_method' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_title',`value`='汽车' WHERE `action` = 'index' AND `option` = 'reply_title' [ RunTime:0.0001s ]
+NOTIC: [2] Illegal offset type in isset or empty D:\xampp\htdocs\test\onethink\ThinkPHP\Library\Think\Model.class.php 第 443 行.
+SQL: UPDATE `wechat_car_config` SET `option`='reply_img_path',`value`='./Public/static/upload/554b125519573.jpg' WHERE `action` = 'index' AND `option` = 'reply_img_path' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-05-08T16:54:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002309s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002736s ]
+
+[ 2015-05-08T16:56:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002857s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003674s ]
+
+[ 2015-05-08T17:28:32+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002398s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002924s ]
+
+[ 2015-05-08T17:28:36+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001957s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002461s ]
+
+[ 2015-05-08T17:28:55+08:00 ] ::1 /test/onethink/Member/?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002397s ]
+
+[ 2015-05-08T17:29:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001809s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002206s ]
+
+[ 2015-05-08T17:29:51+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003668s ]
+
+[ 2015-05-08T17:30:11+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002486s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002933s ]
+
+[ 2015-05-08T17:31:40+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+
+[ 2015-05-08T17:31:44+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003581s ]
+
+[ 2015-05-08T17:32:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales/d/edit/SId/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002439s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002988s ]
+
+[ 2015-05-08T17:32:24+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+
+[ 2015-05-08T17:33:14+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002298s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002712s ]
+
+[ 2015-05-08T17:33:15+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003780s ]
+
+[ 2015-05-08T17:33:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004720s ]
+
+[ 2015-05-08T17:33:17+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/reserve.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002799s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003466s ]
+
+[ 2015-05-08T17:33:18+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+
+[ 2015-05-08T17:33:19+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002506s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002985s ]
+
+[ 2015-05-08T17:33:20+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/plugin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+
+[ 2015-05-08T17:33:21+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/owner.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002464s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003285s ]
+
+[ 2015-05-08T17:33:23+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002660s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003314s ]
+
+[ 2015-05-08T17:33:25+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/sales.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002427s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002903s ]
+
+[ 2015-05-08T17:33:26+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002490s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003017s ]
+
+[ 2015-05-08T17:33:29+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002664s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003344s ]
+
+[ 2015-05-08T17:33:30+08:00 ] ::1 /test/onethink/member.php?s=/Member/Car/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002505s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002989s ]
+

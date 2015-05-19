@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>城市微联盟-婚庆摄影</title>
+		<script type="text/javascript" src="__PUBLIC__/static/js/jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/Wedding/css/secondhand.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div id="back">
+				<img src="__PUBLIC__/Wedding/images/back.png" onClick="history.back(-1)"/>
+			</div>
+			<div class="header_title">{$data.title}</div>
+			<div id="my">
+				<a href="{:U('vip/index')}"><img src="__PUBLIC__/Wedding/images/my_icon.png" /></a>
+			</div>
+			<div class="clear" ></div>
+	</header>
+		<div class="container">
+			<form id="search_form">
+				<div class="sf_left">
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" id="search_box">
+						<tr>
+							<td valign="middle"><input type="text" id="search_blank" autocomplete="on" placeholder="请输入关键字"  /></td>
+							<td valign="middle"><input type="button" id="search_button" value="" /></td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="sf_right">
+				<span class="has_img">
+					<span class="radio"></span>有图
+				</span>
+				</div>
+				<div class="clear"></div>
+			</form>
+			<form id="filter_form">
+			<ul class="wedding_select_box">
+			<li class="sbox">
+					<select name="region" class="sblank" notnull="" id="region" onchange="imitatetype1(this.id)">
+						<option value="">--请选择--</option>
+						<volist name="data.region" id="region">
+						<option value="{$region.id}" text="{$region.region}">├{$region.region}</option>
+						</volist>
+						<option value="清空" text="区域">清空</option>
+					</select>
+					<table border="0" cellpadding="0" cellpadding="0" class="imitate_box">
+						<tr>
+							<td class="imitate" id="imitate_area">区域</td>
+							<td class="si"></td>
+							<input class="select_area" value="区域" type="hidden"/>
+						</tr>
+					</table>
+			</li>
+			<li class="sbox">
+					<select name="type" class="sblank" notnull="" id="area" onchange="imitatetype1(this.id)">
+						<option value="">--请选择--</option>
+						<volist name="data.catlist" id="v">
+						<optgroup label="├{$v.title}">
+							<volist name="v.child" id="vv">
+								<option value="{$vv.id}" text="{$vv.title}">｜└{$vv.title}</option>
+							</volist>
+						</optgroup>
+						</volist>
+						<option text="类型">清空</option>
+					</select>
+					<table border="0" cellpadding="0" cellpadding="0" class="imitate_box">
+						<tr>
+							<td class="imitate" id="imitate_type">类型</td>
+							<td class="si"></td>
+							<input class="select_area" value="类型" type="hidden"/>
+						</tr>
+					</table>
+				</li>
+				<li class="sbox">
+					<select name="order" class="sblank" notnull="" id="area" onchange="imitatetype1(this.id)">
+						<option value="">--请选择--</option>
+						<foreach name="type" item="v">
+						<option value="{$v.id}" text="{$v.classify}">├{$v.classify}</option>
+							<foreach name="v._child" item="vv">
+								<option value="{$vv.id}" text="{$vv.classify}">｜└{$vv.classify}</option>
+							</foreach>
+						</foreach>
+						<option value="清空" text="类型">清空</option>
+					</select>
+					<table border="0" cellpadding="0" cellpadding="0" class="imitate_box">
+						<tr>
+							<td class="imitate" id="imitate_type">排序</td>
+							<td class="si"></td>
+							<input class="select_area" value="排序" type="hidden"/>
+						</tr>
+					</table>
+				</li>
+				
+				<li class="clear"></li>
+			</ul>
+			</form>
+			<ul id="wedding_info_list">			
+				<volist name="data.list" id="info">
+				<a href="{:U('wedding/detail', array('id' => $info['id']))}">
+					<li type="手机" class="show_info_r show_info_t">
+						<div>
+							<h3>{$info.title}</h3>
+							<div><span>[{$info.pic}图]</span><span>{$info.region}</span><span>{$info.views}人查看</span><span>{$info.inputtime|date="Y-m-d H:i",###}</span> </div>
+						</div>
+					</li>
+				</a>
+				</volist>
+			</ul>
+		</div>
+		<footer id="footer">
+			<a href="{:U('infoedit')}"><div id="publish">发布婚庆信息</div></a>
+			<div class="clear"></div>
+		</footer>	
+		<script type="text/javascript" src="__PUBLIC__/static/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/static/js/global.js"></script>
+		<script type='text/javascript' src='__PUBLIC__/Wedding/js/wedding.js'></script>
+	</body>
+</html>

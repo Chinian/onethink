@@ -1,0 +1,698 @@
+[ 2015-04-20T09:07:50+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002701s ]
+
+[ 2015-04-20T09:34:04+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infolist/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002451s ]
+
+[ 2015-04-20T09:34:06+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/wedding/detail/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001422s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+
+[ 2015-04-20T09:34:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001923s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002478s ]
+
+[ 2015-04-20T09:40:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002570s ]
+
+[ 2015-04-20T09:41:03+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/editInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: advert D:\xampp\htdocs\test\onethink\Application\Wechat\Controller\WeddingController.class.php 第 183 行.
+SQL: INSERT INTO `wechat_wedding_info` (`catid`,`typeid`,`title`,`inputtime`,`expirytime`,`regionid`) VALUES ('2','1','2333','1429494063','1432172463','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wechat_wedding_info_data` (`id`,`content`,`contact`,`phone`,`address`) VALUES ('36','asdfasdfasdfasdf','w','1234','hebeiqu') [ RunTime:0.0002s ]
+
+[ 2015-04-20T09:41:03+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002536s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wechat_wedding_category` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `wechat_wedding_category` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wechat_wedding_region`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-04-20T09:41:04+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/detail/id/36.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001708s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+
+[ 2015-04-20T09:49:40+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002469s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003220s ]
+
+[ 2015-04-20T09:50:20+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/editInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001696s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0068s ]
+SQL: INSERT INTO `wechat_wedding_info` (`catid`,`typeid`,`title`,`inputtime`,`expirytime`,`regionid`) VALUES ('2','1','2333','1429494620','1432173020','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wechat_wedding_info_data` (`id`,`content`,`contact`,`phone`,`address`,`advert`) VALUES ('37','asdfasdfasdfasdf','w','1234','hebeiqu','dsaf') [ RunTime:0.0002s ]
+
+[ 2015-04-20T09:50:20+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wechat_wedding_category` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `wechat_wedding_category` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wechat_wedding_region`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-04-20T09:50:21+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/detail/id/37.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001703s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002214s ]
+
+[ 2015-04-20T09:50:22+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001589s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+
+[ 2015-04-20T09:50:31+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/editInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001521s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0058s ]
+SQL: INSERT INTO `wechat_wedding_info` (`catid`,`typeid`,`title`,`inputtime`,`expirytime`,`regionid`) VALUES ('2','1','2333','1429494631','1432173031','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `wechat_wedding_info_data` (`id`,`content`,`contact`,`phone`,`address`,`advert`) VALUES ('38','asdfasdfasdfasdf','w','1234','hebeiqu','dsaf') [ RunTime:0.0002s ]
+
+[ 2015-04-20T09:50:31+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wechat_wedding_category` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `wechat_wedding_category` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wechat_wedding_region`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-04-20T09:50:31+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/detail/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001884s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+
+[ 2015-04-20T11:32:39+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/detail/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002468s ]
+
+[ 2015-04-20T13:41:53+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/detail/id/38.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002961s ]
+
+[ 2015-04-20T14:09:09+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002559s ]
+
+[ 2015-04-20T14:09:10+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infolist/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002746s ]
+
+[ 2015-04-20T14:09:14+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001763s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `regionid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-04-20T14:09:16+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001562s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2015-04-20T14:09:19+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001929s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 3 AND `regionid` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-04-20T14:09:21+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001687s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 4 AND `regionid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-04-20T16:03:37+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002808s ]
+
+[ 2015-04-20T16:03:38+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002702s ]
+
+[ 2015-04-20T16:03:39+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004073s ]
+
+[ 2015-04-20T16:04:00+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+
+[ 2015-04-20T16:04:15+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001919s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002368s ]
+
+[ 2015-04-20T16:12:36+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001778s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+
+[ 2015-04-20T16:13:45+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+
+[ 2015-04-20T16:13:45+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003710s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004645s ]
+
+[ 2015-04-20T16:13:46+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002458s ]
+
+[ 2015-04-20T16:13:46+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001408s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+
+[ 2015-04-20T16:13:46+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001673s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+
+[ 2015-04-20T16:21:46+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+
+[ 2015-04-20T16:34:37+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002358s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+
+[ 2015-04-20T16:34:38+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002365s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003454s ]
+
+[ 2015-04-20T16:46:04+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infolist/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001586s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001984s ]
+
+[ 2015-04-20T16:46:08+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002898s ]
+
+[ 2015-04-20T16:51:32+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002706s ]
+
+[ 2015-04-20T17:51:13+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infolist/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002334s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002891s ]
+
+[ 2015-04-20T17:51:16+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002717s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-04-20T17:51:17+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001742s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-04-20T17:51:19+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001601s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 8  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-04-20T17:51:20+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/infolist/category/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002987s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003549s ]
+
+[ 2015-04-20T17:51:22+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001675s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 0  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-04-20T17:51:25+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001678s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 5  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2015-04-20T17:51:27+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001789s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 5 AND `regionid` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-04-20T17:51:28+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001611s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 5 AND `regionid` = 2  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-04-20T17:51:29+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-04-20T17:51:31+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001597s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-04-20T17:51:33+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001658s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 4  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-04-20T17:51:34+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001593s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 9  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-04-20T17:51:35+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 13  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2015-04-20T17:51:36+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001611s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 2  [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-04-20T17:51:38+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 2 AND `regionid` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-04-20T17:51:40+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 3 AND `regionid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-04-20T17:51:41+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/filter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001595s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `wechat_wedding_info` WHERE `catid` = 3 AND `regionid` = 3  [ RunTime:0.0003s ]
+SQL: SELECT `region` FROM `wechat_wedding_region` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+

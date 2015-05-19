@@ -1,0 +1,36 @@
+[ 2015-04-21T09:15:30+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.035307s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039677s ]
+
+[ 2015-04-21T14:13:49+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/editInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0064s ]
+SQL: INSERT INTO `wechat_wedding_info` (`catid`,`typeid`,`title`,`inputtime`,`expirytime`,`regionid`) VALUES ('0','1','','1429596829','1429596829','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wechat_wedding_info_data` (`id`,`content`,`contact`,`phone`,`address`,`advert`) VALUES ('39','','','','','') [ RunTime:0.0002s ]
+
+[ 2015-04-21T14:16:30+08:00 ] ::1 /test/onethink/wechat.php?s=/Wechat/Wedding/editInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002996s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_category` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_info_data` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `wechat_wedding_region` [ RunTime:0.0065s ]
+SQL: INSERT INTO `wechat_wedding_info` (`catid`,`typeid`,`title`,`inputtime`,`expirytime`,`regionid`) VALUES ('0','1','','1429596990','1429596990','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `wechat_wedding_info_data` (`id`,`content`,`contact`,`phone`,`address`,`advert`) VALUES ('40','','','','','') [ RunTime:0.0001s ]
+
